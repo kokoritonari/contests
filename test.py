@@ -11,4 +11,6 @@ start = time.time()
 # A.insert(100, x) 0.004876136779785156
 # A.insert(100, x) 1.5020370483398438e-05
 # A = A[100:] + [x] + A[101:] 0.05580425262451172
+# A = [int(n) for n in input().split()] 0.014417171478271484
+# A = list(map(int, input().split()))   0.013602972030639648
 print(time.time() - start)

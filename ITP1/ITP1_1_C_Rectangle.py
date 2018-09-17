@@ -1,7 +1,6 @@
-input_line = input().rstrip()
-length = [int(x) for x in input_line.rsplit()]
+a, b = map(int, input().split())
 
-area = length[0] * length[1]
-perimeter = 2 * (length[0] + length[1])
+area = a * b
+perimeter = 2 * (a + b)
 
 print(area, perimeter)

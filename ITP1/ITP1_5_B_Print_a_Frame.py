@@ -1,5 +1,11 @@
 while True:
     H, W = map(int, input().split())
+    if H == W == 0: break
+    print("#" * W + "\n" + ("#" + "." * (W - 2) + "#\n") * (H - 2) + "#" * W + "\n")
+    
+"""
+while True:
+    H, W = map(int, input().split())
     if H == 0 and W == 0:
         break
     for i in range(H):
@@ -7,3 +13,4 @@ while True:
             print("#" if i == 0 or j == 0 or i == H - 1 or j == W - 1 else ".", end="")
         print()
     print()
+"""

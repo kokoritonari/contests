@@ -1,3 +1,1 @@
-x = input()
-
-print(int(x) ** 3)
+print(int(input()) ** 3)

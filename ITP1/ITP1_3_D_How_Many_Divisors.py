@@ -1,7 +1,7 @@
-nlist = [int(n) for n in input().rstrip().rsplit()]
-divisor_n = 0
-for i in range(nlist[0], nlist[1]+1):
-    if nlist[2] % i == 0:
-        divisor_n += 1
+a, b, c = list(map(int, input().split()))
+divisors = 0
+for i in range(a, b+1):
+    if c % i == 0:
+        divisors += 1
 
-print(divisor_n)
+print(divisors)

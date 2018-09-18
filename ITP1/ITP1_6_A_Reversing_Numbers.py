@@ -1,3 +1,2 @@
-n = int(input())
-line = input().split()
-print(*line[::-1])
+input()
+print(*input().split()[::-1])

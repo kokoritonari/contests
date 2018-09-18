@@ -1,15 +1,9 @@
-"""
-import numpy as np
 n, m = map(int, input().split())
-A = np.zeros((n, m))
-b = np.zeros((m, 1))
-for i in range(n):
-    A[i,] = list(map(int, input().split()))
+A = [list(map(int, input().split())) for _ in range(n)]
+b = [int(input()) for _ in range(m)]
+c = [sum([x*y for x, y in zip(a, b)]) for a in A]
+print(*c, sep="\n")
 
-for j in range(m):
-    b[j] = int(input())
-c = np.dot(A, b)
-print("\n".join(map(str, [line[0] for line in c])))
 """
 n, m = map(int, input().split())
 A, b = [], []
@@ -26,3 +20,4 @@ for i in range(n):
     c.append(sum)
 
 print("\n".join(map(str, c)))
+"""

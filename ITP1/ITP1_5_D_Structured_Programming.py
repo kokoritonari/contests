@@ -1,3 +1,6 @@
+n = int(input())
+print("", *[str(i) for i in range(3, n+1) if i % 3 == 0 or "3" in str(i)])
+"""
 def call(n):
     i = 1
     while i <= n:
@@ -14,8 +17,7 @@ def call(n):
         i += 1
 
     print()
-
-
+"""
 """
 def call(n):
     i = 1
@@ -34,7 +36,3 @@ def call(n):
 
     print(" "+str(n))
 """
-
-if __name__=="__main__":
-    n = int(input())
-    call(n)

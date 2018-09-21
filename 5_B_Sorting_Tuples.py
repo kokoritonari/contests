@@ -1,0 +1,1 @@
+for item in sorted([[int(a[0]), int(a[1]), a[2], int(a[3]), a[4]] for a in [input().split() for _ in [0]*int(input())]]): print(*item)

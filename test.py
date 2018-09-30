@@ -1,10 +1,17 @@
 import time
 import collections
+times = []
 # x = "hehe"
 # A = collections.deque([i for i in range(1000000)])
-a = 1
-times = []
-for i in range(100):
+# a = 1
+#A = [i for i in range(100000)]
+"""
+def test(B):
+    B[10] = 12345
+    return B
+"""
+
+for i in range(100000):
 
     # A = [i for i in range(1000000)]
     
@@ -28,7 +35,9 @@ for i in range(100):
     # print(1 if a == 1 else 0) 4.365444183349609e-06
     # for _ in range(100000): 0.003777163028717041
     # for _ in [0]*100000:    0.002701156139373779
-    
+    # A = test(A) 3.1894922256469724e-07
+    # test(A) 3.023958206176758e-07
+
     times.append(time.time() - start)
 
 print(sum(times) / len(times))

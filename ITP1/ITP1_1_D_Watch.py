@@ -1,7 +1,4 @@
-S = int(input())
-
-h, s1 = divmod(S, 3600)
-m, s2 = divmod(s1, 60)
-s = s2
-
-print("{}:{}:{}".format(h, m, s))
+S=int(input())
+m,s=divmod(S,60)
+h,m=divmod(m,60)
+print(h,m,s,sep=":")

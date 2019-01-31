@@ -1,3 +1,9 @@
+r=range
+while 1:
+ n,x=map(int,input().split())
+ if n==0:break
+ print(sum(a+b+c==x for a in r(1,n-1)for b in r(a+1,n)for c in r(b+1,n+1)))
+"""
 while True:
     n, x = map(int, input().split())
 
@@ -12,3 +18,4 @@ while True:
                     combi += 1
 
     print(combi)
+"""

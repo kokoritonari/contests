@@ -1,8 +1,13 @@
+while 1:
+ h,w=map(int,input().split())
+ if h==0:break
+ print(("#"*w+"\n")*h)
+"""
 while True:
     H, W = map(int, input().split())
     if H == 0: break
     print(("#" * W + "\n") * H)
-
+"""
 """
 while True:
     H, W = map(int, input().split())

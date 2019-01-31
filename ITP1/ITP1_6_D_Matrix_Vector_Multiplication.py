@@ -1,9 +1,7 @@
-n, m = map(int, input().split())
-A = [list(map(int, input().split())) for _ in range(n)]
-b = [int(input()) for _ in range(m)]
-c = [sum([x*y for x, y in zip(a, b)]) for a in A]
-print(*c, sep="\n")
-
+n,m=map(int,input().split())
+A=[list(map(int,input().split()))for _ in[0]*n]
+b=[int(input())for _ in[0]*m]
+print(*[sum(x*y for x,y in zip(a,b))for a in A],sep="\n")
 """
 n, m = map(int, input().split())
 A, b = [], []

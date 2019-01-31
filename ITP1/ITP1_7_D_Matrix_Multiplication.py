@@ -1,3 +1,8 @@
+n,m,l=map(int,input().split())
+A=[input().split()for _ in[0]*n]
+B=[input().split()for _ in[0]*m]
+for a in A:print(*[sum(int(x)*int(y)for x,y in zip(a,b))for b in zip(*B)])
+"""
 n, m, l = map(int, input().split())
 A, B, C = [], [], []
 
@@ -17,3 +22,4 @@ for i in range(n):
 
 for row in C:
     print(*row)
+"""

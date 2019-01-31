@@ -1,2 +1,1 @@
-input()
-print(*input().split()[::-1])
+input();print(*input().split()[::-1])

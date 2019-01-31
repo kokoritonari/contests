@@ -1,8 +1,13 @@
-while True:
-    s = input()
-    if "?" in s: break
-    print(int(eval(s)))
-
+import sys
+for e in sys.stdin:
+ if"?"in e:break
+ print(int(eval(e)))
+"""
+while 1:
+ s=input()
+ if"?"in s: break
+ print(int(eval(s)))
+"""
 """
 while True:
     a, op, b = input().split()

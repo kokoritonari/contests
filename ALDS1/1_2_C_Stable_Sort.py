@@ -1,3 +1,25 @@
+def BubbleSort(c,n):
+ for i in range(n):
+  for j in range(n-i-1):
+   if c[j][1]>c[j+1][1]:c[j],c[j+1]=c[j+1],c[j]
+ return c
+
+def SelectionSort(c,n):
+ for i in range(n):
+  m=i
+  for j in range(i,n):
+   if c[j][1]<c[m][1]:m=j
+  c[i],c[m]=c[m],c[i]
+ return c
+
+n=int(input());c=input().split()
+b=BubbleSort(c[:],n)
+s=SelectionSort(c[:],n)
+print(*b)
+print("Stable")
+print(*s)
+print(["Not s","S"][b==s]+"table")
+"""
 def BubbleSort(C):
     for i in range(1, len(C)):
         for j in range(i, len(C))[::-1]:
@@ -28,8 +50,7 @@ print(*[s+str(n) for s, n in C1])
 print("Stable" if isStable(C, C1) else "Not stable")
 print(*[s+str(n) for s, n in C2])
 print("Stable" if isStable(C, C2) else "Not stable")
-
-
+"""
 """
 def isStable(origin, sort):
     n = len(origin)

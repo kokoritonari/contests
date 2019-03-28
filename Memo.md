@@ -14,3 +14,4 @@
     * ちょっと早い
 * collections.dequeを使う
 * 標準入力を全部読み込んでから処理をする
+* sys.stdin.readlineをinputの代わりに使う

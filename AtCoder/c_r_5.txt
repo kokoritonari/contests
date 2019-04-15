@@ -1,0 +1,519 @@
+AtCoder Beginner Contest 001
+A - 積雪深差	Python3 (3.4.3)	AC	http://abc001.contest.atcoder.jp/submissions/4896784
+B - 視程の通報	Python2 (2.7.6)	AC	http://abc001.contest.atcoder.jp/submissions/4827406
+D - 感雨時刻の整理	Objective-C (GCC 5.3.0)	WA	http://abc001.contest.atcoder.jp/submissions/4779235
+B - 視程の通報	Objective-C (GCC 5.3.0)	AC	http://abc001.contest.atcoder.jp/submissions/4779131
+D - 感雨時刻の整理	Objective-C (GCC 5.3.0)	CE	http://abc001.contest.atcoder.jp/submissions/4779123
+A - 積雪深差	Python3 (3.4.3)	AC	http://abc001.contest.atcoder.jp/submissions/4647001
+A - 積雪深差	PyPy3 (2.4.0)	AC	http://abc001.contest.atcoder.jp/submissions/4247804
+B - 視程の通報	PyPy3 (2.4.0)	AC	http://abc001.contest.atcoder.jp/submissions/4193269
+B - 視程の通報	Python3 (3.4.3)	AC	http://abc001.contest.atcoder.jp/submissions/4193267
+B - 視程の通報	Python3 (3.4.3)	WA	http://abc001.contest.atcoder.jp/submissions/4193261
+D - 感雨時刻の整理	PyPy3 (2.4.0)	AC	http://abc001.contest.atcoder.jp/submissions/4193244
+D - 感雨時刻の整理	PyPy3 (2.4.0)	WA	http://abc001.contest.atcoder.jp/submissions/4193243
+D - 感雨時刻の整理	Python3 (3.4.3)	AC	http://abc001.contest.atcoder.jp/submissions/4193242
+D - 感雨時刻の整理	Python3 (3.4.3)	WA	http://abc001.contest.atcoder.jp/submissions/4193241
+A - 積雪深差	Objective-C (GCC 5.3.0)	AC	http://abc001.contest.atcoder.jp/submissions/3227418
+A - 積雪深差	Objective-C (GCC 5.3.0)	CE	http://abc001.contest.atcoder.jp/submissions/3227410
+A - 積雪深差	PyPy3 (2.4.0)	AC	http://abc001.contest.atcoder.jp/submissions/2915756
+A - 積雪深差	Python3 (3.4.3)	AC	http://abc001.contest.atcoder.jp/submissions/2622984
+C - 風力観測	Java8 (OpenJDK 1.8.0)	AC	http://abc001.contest.atcoder.jp/submissions/2241319
+C - 風力観測	Java8 (OpenJDK 1.8.0)	AC	http://abc001.contest.atcoder.jp/submissions/2241246
+AtCoder Beginner Contest 002
+B - 罠	Objective-C (GCC 5.3.0)	AC	http://abc002.contest.atcoder.jp/submissions/4779264
+B - 罠	Objective-C (GCC 5.3.0)	AC	http://abc002.contest.atcoder.jp/submissions/4779263
+B - 罠	PyPy3 (2.4.0)	AC	http://abc002.contest.atcoder.jp/submissions/4193277
+D - 派閥	Python3 (3.4.3)	WA	http://abc002.contest.atcoder.jp/submissions/3337421
+D - 派閥	Python3 (3.4.3)	WA	http://abc002.contest.atcoder.jp/submissions/3337356
+A - 正直者	Objective-C (GCC 5.3.0)	AC	http://abc002.contest.atcoder.jp/submissions/3227422
+C - 直訴	Text (cat)	WA	http://abc002.contest.atcoder.jp/submissions/3224319
+A - 正直者	PyPy3 (2.4.0)	AC	http://abc002.contest.atcoder.jp/submissions/2915758
+C - 直訴	Java8 (OpenJDK 1.8.0)	AC	http://abc002.contest.atcoder.jp/submissions/2241380
+B - 罠	Python3 (3.4.3)	AC	http://abc002.contest.atcoder.jp/submissions/2197504
+B - 罠	Python3 (3.4.3)	AC	http://abc002.contest.atcoder.jp/submissions/2197499
+B - 罠	Python3 (3.4.3)	RE	http://abc002.contest.atcoder.jp/submissions/2197492
+A - 正直者	Python3 (3.4.3)	AC	http://abc002.contest.atcoder.jp/submissions/2146369
+A - 正直者	Python3 (3.4.3)	AC	http://abc002.contest.atcoder.jp/submissions/2146364
+AtCoder Beginner Contest 003
+B - AtCoderトランプ	Python3 (3.4.3)	AC	http://abc003.contest.atcoder.jp/submissions/4898365
+B - AtCoderトランプ	Objective-C (GCC 5.3.0)	AC	http://abc003.contest.atcoder.jp/submissions/4779288
+C - AtCoderプログラミング講座	Objective-C (GCC 5.3.0)	AC	http://abc003.contest.atcoder.jp/submissions/4779284
+C - AtCoderプログラミング講座	Python3 (3.4.3)	AC	http://abc003.contest.atcoder.jp/submissions/4512390
+B - AtCoderトランプ	Python3 (3.4.3)	AC	http://abc003.contest.atcoder.jp/submissions/4505443
+A - AtCoder社の給料	PyPy3 (2.4.0)	AC	http://abc003.contest.atcoder.jp/submissions/4435918
+A - AtCoder社の給料	Python3 (3.4.3)	AC	http://abc003.contest.atcoder.jp/submissions/4435916
+B - AtCoderトランプ	Ruby (2.3.3)	RE	http://abc003.contest.atcoder.jp/submissions/4196153
+B - AtCoderトランプ	Python3 (3.4.3)	AC	http://abc003.contest.atcoder.jp/submissions/4196111
+B - AtCoderトランプ	Python3 (3.4.3)	AC	http://abc003.contest.atcoder.jp/submissions/4196102
+B - AtCoderトランプ	Python3 (3.4.3)	WA	http://abc003.contest.atcoder.jp/submissions/4193380
+B - AtCoderトランプ	Python3 (3.4.3)	WA	http://abc003.contest.atcoder.jp/submissions/4193376
+B - AtCoderトランプ	Python3 (3.4.3)	WA	http://abc003.contest.atcoder.jp/submissions/4193374
+B - AtCoderトランプ	Python3 (3.4.3)	WA	http://abc003.contest.atcoder.jp/submissions/4193363
+B - AtCoderトランプ	Python3 (3.4.3)	AC	http://abc003.contest.atcoder.jp/submissions/4193356
+B - AtCoderトランプ	Python3 (3.4.3)	WA	http://abc003.contest.atcoder.jp/submissions/4193345
+B - AtCoderトランプ	Python3 (3.4.3)	AC	http://abc003.contest.atcoder.jp/submissions/4193334
+B - AtCoderトランプ	Python3 (3.4.3)	AC	http://abc003.contest.atcoder.jp/submissions/4193326
+B - AtCoderトランプ	PyPy3 (2.4.0)	AC	http://abc003.contest.atcoder.jp/submissions/4193308
+B - AtCoderトランプ	PyPy3 (2.4.0)	WA	http://abc003.contest.atcoder.jp/submissions/4193296
+AtCoder Beginner Contest 004
+B - 回転	Objective-C (GCC 5.3.0)	AC	http://abc004.contest.atcoder.jp/submissions/4779371
+B - 回転	Python3 (3.4.3)	AC	http://abc004.contest.atcoder.jp/submissions/4505750
+B - 回転	Python3 (3.4.3)	WA	http://abc004.contest.atcoder.jp/submissions/4505703
+B - 回転	Python3 (3.4.3)	WA	http://abc004.contest.atcoder.jp/submissions/4505681
+A - 流行	Objective-C (GCC 5.3.0)	AC	http://abc004.contest.atcoder.jp/submissions/3227439
+A - 流行	PyPy3 (2.4.0)	AC	http://abc004.contest.atcoder.jp/submissions/2915781
+C - 入れ替え	Java8 (OpenJDK 1.8.0)	AC	http://abc004.contest.atcoder.jp/submissions/2244771
+C - 入れ替え	Java8 (OpenJDK 1.8.0)	WA	http://abc004.contest.atcoder.jp/submissions/2244269
+B - 回転	Python3 (3.4.3)	AC	http://abc004.contest.atcoder.jp/submissions/2168042
+A - 流行	Python3 (3.4.3)	AC	http://abc004.contest.atcoder.jp/submissions/2146258
+AtCoder Beginner Contest 005
+B - おいしいたこ焼きの食べ方	Python3 (3.4.3)	AC	http://abc005.contest.atcoder.jp/submissions/4898322
+C - おいしいたこ焼きの売り方	Objective-C (GCC 5.3.0)	AC	http://abc005.contest.atcoder.jp/submissions/4779386
+B - おいしいたこ焼きの食べ方	Objective-C (GCC 5.3.0)	AC	http://abc005.contest.atcoder.jp/submissions/4779382
+C - おいしいたこ焼きの売り方	PyPy3 (2.4.0)	AC	http://abc005.contest.atcoder.jp/submissions/4616975
+C - おいしいたこ焼きの売り方	Python3 (3.4.3)	AC	http://abc005.contest.atcoder.jp/submissions/4616967
+B - おいしいたこ焼きの食べ方	PyPy3 (2.4.0)	AC	http://abc005.contest.atcoder.jp/submissions/4505896
+B - おいしいたこ焼きの食べ方	Python3 (3.4.3)	WA	http://abc005.contest.atcoder.jp/submissions/4505888
+B - おいしいたこ焼きの食べ方	Python3 (3.4.3)	AC	http://abc005.contest.atcoder.jp/submissions/4505883
+A - おいしいたこ焼きの作り方	Python3 (3.4.3)	AC	http://abc005.contest.atcoder.jp/submissions/4505863
+B - おいしいたこ焼きの食べ方	Awk (mawk 1.3.3)	WA	http://abc005.contest.atcoder.jp/submissions/3566067
+B - おいしいたこ焼きの食べ方	Bash (GNU bash v4.3.11)	WA	http://abc005.contest.atcoder.jp/submissions/3566062
+A - おいしいたこ焼きの作り方	Objective-C (GCC 5.3.0)	AC	http://abc005.contest.atcoder.jp/submissions/3227441
+A - おいしいたこ焼きの作り方	PyPy3 (2.4.0)	AC	http://abc005.contest.atcoder.jp/submissions/2915783
+C - おいしいたこ焼きの売り方	Java8 (OpenJDK 1.8.0)	AC	http://abc005.contest.atcoder.jp/submissions/2244836
+C - おいしいたこ焼きの売り方	Java8 (OpenJDK 1.8.0)	WA	http://abc005.contest.atcoder.jp/submissions/2244500
+B - おいしいたこ焼きの食べ方	Python3 (3.4.3)	AC	http://abc005.contest.atcoder.jp/submissions/2170277
+A - おいしいたこ焼きの作り方	Python3 (3.4.3)	AC	http://abc005.contest.atcoder.jp/submissions/2146279
+AtCoder Beginner Contest 006
+B - トリボナッチ数列	Objective-C (GCC 5.3.0)	AC	http://abc006.contest.atcoder.jp/submissions/4785156
+B - トリボナッチ数列	PyPy3 (2.4.0)	AC	http://abc006.contest.atcoder.jp/submissions/4626376
+B - トリボナッチ数列	Python3 (3.4.3)	AC	http://abc006.contest.atcoder.jp/submissions/4626371
+A - 世界のFizzBuzz	Sed (GNU sed 4.2.2)	WA	http://abc006.contest.atcoder.jp/submissions/3561371
+A - 世界のFizzBuzz	Objective-C (GCC 5.3.0)	AC	http://abc006.contest.atcoder.jp/submissions/3227459
+A - 世界のFizzBuzz	Python3 (3.4.3)	RE	http://abc006.contest.atcoder.jp/submissions/3100411
+A - 世界のFizzBuzz	PyPy3 (2.4.0)	AC	http://abc006.contest.atcoder.jp/submissions/2915793
+A - 世界のFizzBuzz	Python3 (3.4.3)	AC	http://abc006.contest.atcoder.jp/submissions/2229571
+A - 世界のFizzBuzz	Python3 (3.4.3)	AC	http://abc006.contest.atcoder.jp/submissions/2229563
+A - 世界のFizzBuzz	Python3 (3.4.3)	WA	http://abc006.contest.atcoder.jp/submissions/2229559
+C - スフィンクスのなぞなぞ	Java8 (OpenJDK 1.8.0)	AC	http://abc006.contest.atcoder.jp/submissions/2120091
+C - スフィンクスのなぞなぞ	Java8 (OpenJDK 1.8.0)	TLE	http://abc006.contest.atcoder.jp/submissions/2120059
+A - 世界のFizzBuzz	Java8 (OpenJDK 1.8.0)	AC	http://abc006.contest.atcoder.jp/submissions/2118910
+B - トリボナッチ数列	Java8 (OpenJDK 1.8.0)	AC	http://abc006.contest.atcoder.jp/submissions/2118823
+B - トリボナッチ数列	Java8 (OpenJDK 1.8.0)	TLE	http://abc006.contest.atcoder.jp/submissions/2118809
+AtCoder Beginner Contest 007
+B - 辞書式順序	Objective-C (GCC 5.3.0)	AC	http://abc007.contest.atcoder.jp/submissions/4785226
+C - 幅優先探索	Objective-C (GCC 5.3.0)	AC	http://abc007.contest.atcoder.jp/submissions/4785225
+C - 幅優先探索	Python3 (3.4.3)	AC	http://abc007.contest.atcoder.jp/submissions/4620165
+B - 辞書式順序	PyPy3 (2.4.0)	AC	http://abc007.contest.atcoder.jp/submissions/4618006
+B - 辞書式順序	Python3 (3.4.3)	AC	http://abc007.contest.atcoder.jp/submissions/4618004
+B - 辞書式順序	Python3 (3.4.3)	WA	http://abc007.contest.atcoder.jp/submissions/4618001
+C - 幅優先探索	Python3 (3.4.3)	AC	http://abc007.contest.atcoder.jp/submissions/3683543
+C - 幅優先探索	PyPy3 (2.4.0)	AC	http://abc007.contest.atcoder.jp/submissions/3683458
+C - 幅優先探索	Python3 (3.4.3)	AC	http://abc007.contest.atcoder.jp/submissions/3683450
+B - 辞書式順序	Awk (mawk 1.3.3)	AC	http://abc007.contest.atcoder.jp/submissions/3566076
+A - 植木算	Objective-C (GCC 5.3.0)	AC	http://abc007.contest.atcoder.jp/submissions/3227460
+A - 植木算	Python3 (3.4.3)	AC	http://abc007.contest.atcoder.jp/submissions/2915802
+A - 植木算	PyPy3 (2.4.0)	AC	http://abc007.contest.atcoder.jp/submissions/2915800
+A - 植木算	Java8 (OpenJDK 1.8.0)	AC	http://abc007.contest.atcoder.jp/submissions/2118877
+B - 辞書式順序	Java8 (OpenJDK 1.8.0)	AC	http://abc007.contest.atcoder.jp/submissions/2118865
+C - 幅優先探索	Java8 (OpenJDK 1.8.0)	AC	http://abc007.contest.atcoder.jp/submissions/2117720
+AtCoder Beginner Contest 008
+B - 投票	Python3 (3.4.3)	AC	http://abc008.contest.atcoder.jp/submissions/4898291
+B - 投票	Objective-C (GCC 5.3.0)	AC	http://abc008.contest.atcoder.jp/submissions/4785244
+B - 投票	Python3 (3.4.3)	WA	http://abc008.contest.atcoder.jp/submissions/4642550
+B - 投票	Python3 (3.4.3)	WA	http://abc008.contest.atcoder.jp/submissions/4626483
+B - 投票	PyPy3 (2.4.0)	AC	http://abc008.contest.atcoder.jp/submissions/4626449
+B - 投票	Python3 (3.4.3)	AC	http://abc008.contest.atcoder.jp/submissions/4626443
+B - 投票	Python3 (3.4.3)	WA	http://abc008.contest.atcoder.jp/submissions/4626436
+A - アルバム	Awk (mawk 1.3.3)	AC	http://abc008.contest.atcoder.jp/submissions/3561376
+A - アルバム	Objective-C (GCC 5.3.0)	AC	http://abc008.contest.atcoder.jp/submissions/3227461
+C - コイン	Text (cat)	WA	http://abc008.contest.atcoder.jp/submissions/3224327
+A - アルバム	PyPy3 (2.4.0)	AC	http://abc008.contest.atcoder.jp/submissions/2915809
+C - コイン	Java8 (OpenJDK 1.8.0)	WA	http://abc008.contest.atcoder.jp/submissions/2244732
+A - アルバム	Python3 (3.4.3)	AC	http://abc008.contest.atcoder.jp/submissions/2146276
+A - アルバム	Python3 (3.4.3)	RE	http://abc008.contest.atcoder.jp/submissions/2146270
+A - アルバム	Python3 (3.4.3)	RE	http://abc008.contest.atcoder.jp/submissions/2146266
+A - アルバム	Python3 (3.4.3)	RE	http://abc008.contest.atcoder.jp/submissions/2146263
+B - 投票	Java8 (OpenJDK 1.8.0)	AC	http://abc008.contest.atcoder.jp/submissions/2121012
+AtCoder Beginner Contest 009
+B - 心配性な富豪、ファミリーレストランに行く。	Python3 (3.4.3)	AC	http://abc009.contest.atcoder.jp/submissions/4898272
+B - 心配性な富豪、ファミリーレストランに行く。	Python3 (3.4.3)	RE	http://abc009.contest.atcoder.jp/submissions/4898268
+B - 心配性な富豪、ファミリーレストランに行く。	Objective-C (GCC 5.3.0)	AC	http://abc009.contest.atcoder.jp/submissions/4785266
+B - 心配性な富豪、ファミリーレストランに行く。	PyPy3 (2.4.0)	AC	http://abc009.contest.atcoder.jp/submissions/4632560
+B - 心配性な富豪、ファミリーレストランに行く。	Python3 (3.4.3)	WA	http://abc009.contest.atcoder.jp/submissions/4632546
+B - 心配性な富豪、ファミリーレストランに行く。	Python3 (3.4.3)	AC	http://abc009.contest.atcoder.jp/submissions/4632541
+A - 引越し作業	Python3 (3.4.3)	AC	http://abc009.contest.atcoder.jp/submissions/4436269
+C - 辞書式順序ふたたび	Python3 (3.4.3)	WA	http://abc009.contest.atcoder.jp/submissions/4123530
+B - 心配性な富豪、ファミリーレストランに行く。	Bash (GNU bash v4.3.11)	WA	http://abc009.contest.atcoder.jp/submissions/3566087
+A - 引越し作業	Awk (mawk 1.3.3)	WA	http://abc009.contest.atcoder.jp/submissions/3553973
+A - 引越し作業	Objective-C (GCC 5.3.0)	AC	http://abc009.contest.atcoder.jp/submissions/3227462
+A - 引越し作業	PyPy3 (2.4.0)	AC	http://abc009.contest.atcoder.jp/submissions/2915823
+A - 引越し作業	PyPy3 (2.4.0)	WA	http://abc009.contest.atcoder.jp/submissions/2915820
+B - 心配性な富豪、ファミリーレストランに行く。	Python3 (3.4.3)	AC	http://abc009.contest.atcoder.jp/submissions/2173677
+A - 引越し作業	Python3 (3.4.3)	AC	http://abc009.contest.atcoder.jp/submissions/2146380
+A - 引越し作業	Python3 (3.4.3)	RE	http://abc009.contest.atcoder.jp/submissions/2146378
+AtCoder Beginner Contest 010
+B - 花占い	Python3 (3.4.3)	AC	http://abc010.contest.atcoder.jp/submissions/4898243
+B - 花占い	Objective-C (GCC 5.3.0)	AC	http://abc010.contest.atcoder.jp/submissions/4785279
+B - 花占い	PyPy3 (2.4.0)	AC	http://abc010.contest.atcoder.jp/submissions/4119229
+B - 花占い	Bash (GNU bash v4.3.11)	RE	http://abc010.contest.atcoder.jp/submissions/3566090
+B - 花占い	Bash (GNU bash v4.3.11)	RE	http://abc010.contest.atcoder.jp/submissions/3566089
+A - ハンドルネーム	Objective-C (GCC 5.3.0)	AC	http://abc010.contest.atcoder.jp/submissions/3227469
+A - ハンドルネーム	PyPy3 (2.4.0)	AC	http://abc010.contest.atcoder.jp/submissions/2915832
+A - ハンドルネーム	PyPy3 (2.4.0)	RE	http://abc010.contest.atcoder.jp/submissions/2915831
+C - 浮気調査	Java8 (OpenJDK 1.8.0)	AC	http://abc010.contest.atcoder.jp/submissions/2248716
+B - 花占い	Python3 (3.4.3)	AC	http://abc010.contest.atcoder.jp/submissions/2180818
+B - 花占い	Python3 (3.4.3)	RE	http://abc010.contest.atcoder.jp/submissions/2180814
+A - ハンドルネーム	Python3 (3.4.3)	AC	http://abc010.contest.atcoder.jp/submissions/2146248
+AtCoder Beginner Contest 011
+B - 名前の確認	Objective-C (GCC 5.3.0)	AC	http://abc011.contest.atcoder.jp/submissions/4785429
+C - 123引き算	Objective-C (GCC 5.3.0)	AC	http://abc011.contest.atcoder.jp/submissions/4785426
+C - 123引き算	Python3 (3.4.3)	AC	http://abc011.contest.atcoder.jp/submissions/4678286
+C - 123引き算	Python3 (3.4.3)	AC	http://abc011.contest.atcoder.jp/submissions/4660695
+C - 123引き算	Python3 (3.4.3)	WA	http://abc011.contest.atcoder.jp/submissions/4660694
+C - 123引き算	Python3 (3.4.3)	WA	http://abc011.contest.atcoder.jp/submissions/4660684
+C - 123引き算	Python3 (3.4.3)	WA	http://abc011.contest.atcoder.jp/submissions/4660678
+C - 123引き算	Python3 (3.4.3)	WA	http://abc011.contest.atcoder.jp/submissions/4660670
+C - 123引き算	Python3 (3.4.3)	AC	http://abc011.contest.atcoder.jp/submissions/4660668
+C - 123引き算	Python3 (3.4.3)	WA	http://abc011.contest.atcoder.jp/submissions/4660667
+C - 123引き算	Python3 (3.4.3)	AC	http://abc011.contest.atcoder.jp/submissions/4660665
+C - 123引き算	Python3 (3.4.3)	WA	http://abc011.contest.atcoder.jp/submissions/4660658
+C - 123引き算	Python3 (3.4.3)	AC	http://abc011.contest.atcoder.jp/submissions/4660639
+C - 123引き算	PyPy3 (2.4.0)	AC	http://abc011.contest.atcoder.jp/submissions/4090152
+C - 123引き算	PyPy3 (2.4.0)	RE	http://abc011.contest.atcoder.jp/submissions/4090142
+B - 名前の確認	PyPy3 (2.4.0)	AC	http://abc011.contest.atcoder.jp/submissions/4090087
+C - 123引き算	Python3 (3.4.3)	WA	http://abc011.contest.atcoder.jp/submissions/3591651
+C - 123引き算	Python3 (3.4.3)	AC	http://abc011.contest.atcoder.jp/submissions/3591643
+C - 123引き算	Python3 (3.4.3)	WA	http://abc011.contest.atcoder.jp/submissions/3591639
+A - 来月は何月？	Awk (mawk 1.3.3)	WA	http://abc011.contest.atcoder.jp/submissions/3561381
+AtCoder Beginner Contest 012
+B - 入浴時間	Objective-C (GCC 5.3.0)	AC	http://abc012.contest.atcoder.jp/submissions/4785448
+C - 九九足し算	Objective-C (GCC 5.3.0)	AC	http://abc012.contest.atcoder.jp/submissions/4785444
+B - 入浴時間	Python3 (3.4.3)	WA	http://abc012.contest.atcoder.jp/submissions/4633026
+B - 入浴時間	Python3 (3.4.3)	WA	http://abc012.contest.atcoder.jp/submissions/4633025
+B - 入浴時間	Python3 (3.4.3)	AC	http://abc012.contest.atcoder.jp/submissions/4633014
+B - 入浴時間	Python3 (3.4.3)	AC	http://abc012.contest.atcoder.jp/submissions/4632948
+C - 九九足し算	Python3 (3.4.3)	AC	http://abc012.contest.atcoder.jp/submissions/4199180
+C - 九九足し算	Python3 (3.4.3)	WA	http://abc012.contest.atcoder.jp/submissions/4199178
+C - 九九足し算	Python3 (3.4.3)	AC	http://abc012.contest.atcoder.jp/submissions/4199175
+C - 九九足し算	Python3 (3.4.3)	AC	http://abc012.contest.atcoder.jp/submissions/4199171
+C - 九九足し算	PyPy3 (2.4.0)	AC	http://abc012.contest.atcoder.jp/submissions/4199170
+A - スワップ	Python3 (3.4.3)	AC	http://abc012.contest.atcoder.jp/submissions/3490320
+A - スワップ	Ruby (2.3.3)	AC	http://abc012.contest.atcoder.jp/submissions/3490315
+A - スワップ	Objective-C (GCC 5.3.0)	AC	http://abc012.contest.atcoder.jp/submissions/3227475
+A - スワップ	PyPy3 (2.4.0)	AC	http://abc012.contest.atcoder.jp/submissions/2915861
+A - スワップ	PyPy3 (2.4.0)	WA	http://abc012.contest.atcoder.jp/submissions/2915859
+C - 九九足し算	Python3 (3.4.3)	AC	http://abc012.contest.atcoder.jp/submissions/2180827
+C - 九九足し算	Python3 (3.4.3)	AC	http://abc012.contest.atcoder.jp/submissions/2180826
+B - 入浴時間	Java8 (OpenJDK 1.8.0)	AC	http://abc012.contest.atcoder.jp/submissions/2161238
+A - スワップ	Python3 (3.4.3)	AC	http://abc012.contest.atcoder.jp/submissions/2146307
+AtCoder Beginner Contest 013
+B - 錠	Python3 (3.4.3)	AC	http://abc013.contest.atcoder.jp/submissions/4898185
+C - 節制	Objective-C (GCC 5.3.0)	AC	http://abc013.contest.atcoder.jp/submissions/4785472
+A - A	Objective-C (GCC 5.3.0)	AC	http://abc013.contest.atcoder.jp/submissions/3227482
+C - 節制	Python3 (3.4.3)	AC	http://abc013.contest.atcoder.jp/submissions/3183021
+C - 節制	PyPy3 (2.4.0)	AC	http://abc013.contest.atcoder.jp/submissions/3183019
+C - 節制	PyPy3 (2.4.0)	AC	http://abc013.contest.atcoder.jp/submissions/3183015
+C - 節制	PyPy3 (2.4.0)	WA	http://abc013.contest.atcoder.jp/submissions/3183013
+C - 節制	PyPy3 (2.4.0)	RE	http://abc013.contest.atcoder.jp/submissions/3182999
+C - 節制	PyPy3 (2.4.0)	WA	http://abc013.contest.atcoder.jp/submissions/3182989
+C - 節制	PyPy3 (2.4.0)	WA	http://abc013.contest.atcoder.jp/submissions/3182974
+C - 節制	PyPy3 (2.4.0)	RE	http://abc013.contest.atcoder.jp/submissions/3182962
+C - 節制	PyPy3 (2.4.0)	TLE	http://abc013.contest.atcoder.jp/submissions/3182957
+C - 節制	PyPy3 (2.4.0)	RE	http://abc013.contest.atcoder.jp/submissions/3182953
+C - 節制	PyPy3 (2.4.0)	RE	http://abc013.contest.atcoder.jp/submissions/3182950
+A - A	PyPy3 (2.4.0)	AC	http://abc013.contest.atcoder.jp/submissions/2915866
+B - 錠	Java8 (OpenJDK 1.8.0)	AC	http://abc013.contest.atcoder.jp/submissions/2176506
+A - A	Python3 (3.4.3)	AC	http://abc013.contest.atcoder.jp/submissions/2146327
+A - A	Python3 (3.4.3)	AC	http://abc013.contest.atcoder.jp/submissions/2146324
+AtCoder Beginner Contest 014
+A - けんしょう先生のお菓子配り	Python3 (3.4.3)	AC	http://abc014.contest.atcoder.jp/submissions/4896796
+B - 価格の合計	Objective-C (GCC 5.3.0)	AC	http://abc014.contest.atcoder.jp/submissions/4785492
+C - AtColor	Objective-C (GCC 5.3.0)	WA	http://abc014.contest.atcoder.jp/submissions/4785487
+C - AtColor	Python3 (3.4.3)	TLE	http://abc014.contest.atcoder.jp/submissions/4678460
+C - AtColor	Python3 (3.4.3)	AC	http://abc014.contest.atcoder.jp/submissions/4678432
+C - AtColor	Python3 (3.4.3)	WA	http://abc014.contest.atcoder.jp/submissions/4678431
+B - 価格の合計	Python3 (3.4.3)	WA	http://abc014.contest.atcoder.jp/submissions/4633429
+B - 価格の合計	Python3 (3.4.3)	AC	http://abc014.contest.atcoder.jp/submissions/4633415
+A - けんしょう先生のお菓子配り	Ruby (2.3.3)	AC	http://abc014.contest.atcoder.jp/submissions/3490336
+C - AtColor	Ceylon (1.2.1)	AC	http://abc014.contest.atcoder.jp/submissions/3336245
+A - けんしょう先生のお菓子配り	Objective-C (GCC 5.3.0)	AC	http://abc014.contest.atcoder.jp/submissions/3227486
+A - けんしょう先生のお菓子配り	Python3 (3.4.3)	AC	http://abc014.contest.atcoder.jp/submissions/3100420
+A - けんしょう先生のお菓子配り	PyPy3 (2.4.0)	AC	http://abc014.contest.atcoder.jp/submissions/2915876
+C - AtColor	Java8 (OpenJDK 1.8.0)	AC	http://abc014.contest.atcoder.jp/submissions/2248926
+C - AtColor	Java8 (OpenJDK 1.8.0)	TLE	http://abc014.contest.atcoder.jp/submissions/2248917
+B - 価格の合計	Python3 (3.4.3)	AC	http://abc014.contest.atcoder.jp/submissions/2206121
+B - 価格の合計	Python3 (3.4.3)	RE	http://abc014.contest.atcoder.jp/submissions/2206107
+A - けんしょう先生のお菓子配り	Python3 (3.4.3)	AC	http://abc014.contest.atcoder.jp/submissions/2146391
+A - けんしょう先生のお菓子配り	Python3 (3.4.3)	AC	http://abc014.contest.atcoder.jp/submissions/2146388
+A - けんしょう先生のお菓子配り	Python3 (3.4.3)	RE	http://abc014.contest.atcoder.jp/submissions/2146386
+AtCoder Beginner Contest 015
+B - 高橋くんの集計	Python3 (3.4.3)	AC	http://abc015.contest.atcoder.jp/submissions/4898160
+A - 高橋くんの研修	Python3 (3.4.3)	AC	http://abc015.contest.atcoder.jp/submissions/4896805
+B - 高橋くんの集計	Objective-C (GCC 5.3.0)	AC	http://abc015.contest.atcoder.jp/submissions/4785513
+B - 高橋くんの集計	Python3 (3.4.3)	AC	http://abc015.contest.atcoder.jp/submissions/4633548
+B - 高橋くんの集計	Python3 (3.4.3)	AC	http://abc015.contest.atcoder.jp/submissions/4633534
+B - 高橋くんの集計	Python3 (3.4.3)	RE	http://abc015.contest.atcoder.jp/submissions/4633524
+B - 高橋くんの集計	Python3 (3.4.3)	AC	http://abc015.contest.atcoder.jp/submissions/4633506
+B - 高橋くんの集計	Python3 (3.4.3)	AC	http://abc015.contest.atcoder.jp/submissions/4022880
+B - 高橋くんの集計	PyPy3 (2.4.0)	AC	http://abc015.contest.atcoder.jp/submissions/4022872
+D - 高橋くんの苦悩	PyPy3 (2.4.0)	AC	http://abc015.contest.atcoder.jp/submissions/4020847
+D - 高橋くんの苦悩	Python3 (3.4.3)	TLE	http://abc015.contest.atcoder.jp/submissions/4020844
+A - 高橋くんの研修	Objective-C (GCC 5.3.0)	AC	http://abc015.contest.atcoder.jp/submissions/3227489
+A - 高橋くんの研修	PyPy3 (2.4.0)	AC	http://abc015.contest.atcoder.jp/submissions/2915881
+C - 高橋くんのバグ探し	Java8 (OpenJDK 1.8.0)	AC	http://abc015.contest.atcoder.jp/submissions/2252823
+B - 高橋くんの集計	Python3 (3.4.3)	AC	http://abc015.contest.atcoder.jp/submissions/2173661
+A - 高橋くんの研修	Python3 (3.4.3)	AC	http://abc015.contest.atcoder.jp/submissions/2146394
+AtCoder Beginner Contest 016
+B - A±B Problem	Objective-C (GCC 5.3.0)	AC	http://abc016.contest.atcoder.jp/submissions/4785523
+B - A±B Problem	PyPy3 (2.4.0)	AC	http://abc016.contest.atcoder.jp/submissions/4633637
+B - A±B Problem	Python3 (3.4.3)	AC	http://abc016.contest.atcoder.jp/submissions/4633618
+A - 12月6日	Objective-C (GCC 5.3.0)	AC	http://abc016.contest.atcoder.jp/submissions/3227494
+A - 12月6日	PyPy3 (2.4.0)	AC	http://abc016.contest.atcoder.jp/submissions/2915891
+C - 友達の友達	Java8 (OpenJDK 1.8.0)	AC	http://abc016.contest.atcoder.jp/submissions/2252961
+C - 友達の友達	Java8 (OpenJDK 1.8.0)	WA	http://abc016.contest.atcoder.jp/submissions/2252911
+B - A±B Problem	Python3 (3.4.3)	AC	http://abc016.contest.atcoder.jp/submissions/2161220
+B - A±B Problem	Python3 (3.4.3)	RE	http://abc016.contest.atcoder.jp/submissions/2161213
+B - A±B Problem	Java8 (OpenJDK 1.8.0)	AC	http://abc016.contest.atcoder.jp/submissions/2161180
+A - 12月6日	Python3 (3.4.3)	AC	http://abc016.contest.atcoder.jp/submissions/2146403
+A - 12月6日	Python3 (3.4.3)	RE	http://abc016.contest.atcoder.jp/submissions/2146401
+AtCoder Beginner Contest 017
+B - choku語	Objective-C (GCC 5.3.0)	AC	http://abc017.contest.atcoder.jp/submissions/4785538
+B - choku語	Python3 (3.4.3)	WA	http://abc017.contest.atcoder.jp/submissions/4634081
+B - choku語	Python3 (3.4.3)	AC	http://abc017.contest.atcoder.jp/submissions/4633646
+A - プロコン	Python3 (3.4.3)	AC	http://abc017.contest.atcoder.jp/submissions/4572109
+A - プロコン	Python3 (3.4.3)	WA	http://abc017.contest.atcoder.jp/submissions/4436308
+B - choku語	PyPy3 (2.4.0)	AC	http://abc017.contest.atcoder.jp/submissions/3384335
+B - choku語	Python3 (3.4.3)	AC	http://abc017.contest.atcoder.jp/submissions/3384332
+B - choku語	Sed (GNU sed 4.2.2)	WA	http://abc017.contest.atcoder.jp/submissions/3384325
+B - choku語	Sed (GNU sed 4.2.2)	WA	http://abc017.contest.atcoder.jp/submissions/3384318
+B - choku語	Sed (GNU sed 4.2.2)	WA	http://abc017.contest.atcoder.jp/submissions/3384307
+B - choku語	Sed (GNU sed 4.2.2)	WA	http://abc017.contest.atcoder.jp/submissions/3384300
+B - choku語	Sed (GNU sed 4.2.2)	WA	http://abc017.contest.atcoder.jp/submissions/3384287
+B - choku語	Python3 (3.4.3)	AC	http://abc017.contest.atcoder.jp/submissions/3384275
+B - choku語	Python3 (3.4.3)	WA	http://abc017.contest.atcoder.jp/submissions/3384268
+B - choku語	Python3 (3.4.3)	AC	http://abc017.contest.atcoder.jp/submissions/3384257
+B - choku語	Python3 (3.4.3)	WA	http://abc017.contest.atcoder.jp/submissions/3384245
+B - choku語	Python3 (3.4.3)	AC	http://abc017.contest.atcoder.jp/submissions/3384190
+B - choku語	Python3 (3.4.3)	RE	http://abc017.contest.atcoder.jp/submissions/3384174
+C - ハイスコア	Ceylon (1.2.1)	AC	http://abc017.contest.atcoder.jp/submissions/3336181
+A - プロコン	Objective-C (GCC 5.3.0)	AC	http://abc017.contest.atcoder.jp/submissions/3227499
+AtCoder Beginner Contest 018
+A - 豆まき	Python3 (3.4.3)	AC	http://abc018.contest.atcoder.jp/submissions/4896866
+B - 文字列の反転	Objective-C (GCC 5.3.0)	AC	http://abc018.contest.atcoder.jp/submissions/4785553
+A - 豆まき	Python3 (3.4.3)	AC	http://abc018.contest.atcoder.jp/submissions/4568650
+A - 豆まき	Python3 (3.4.3)	AC	http://abc018.contest.atcoder.jp/submissions/4568056
+A - 豆まき	Python3 (3.4.3)	AC	http://abc018.contest.atcoder.jp/submissions/4472585
+C - 菱型カウント	PyPy3 (2.4.0)	AC	http://abc018.contest.atcoder.jp/submissions/4118856
+C - 菱型カウント	Python3 (3.4.3)	TLE	http://abc018.contest.atcoder.jp/submissions/4118855
+C - 菱型カウント	Python3 (3.4.3)	TLE	http://abc018.contest.atcoder.jp/submissions/4118808
+A - 豆まき	Objective-C (GCC 5.3.0)	AC	http://abc018.contest.atcoder.jp/submissions/3227507
+A - 豆まき	PyPy3 (2.4.0)	AC	http://abc018.contest.atcoder.jp/submissions/2915918
+B - 文字列の反転	Python3 (3.4.3)	AC	http://abc018.contest.atcoder.jp/submissions/2173701
+A - 豆まき	Python3 (3.4.3)	AC	http://abc018.contest.atcoder.jp/submissions/2146439
+A - 豆まき	Python3 (3.4.3)	RE	http://abc018.contest.atcoder.jp/submissions/2146434
+AtCoder Beginner Contest 019
+B - 高橋くんと文字列圧縮	Objective-C (GCC 5.3.0)	AC	http://abc019.contest.atcoder.jp/submissions/4785567
+B - 高橋くんと文字列圧縮	PyPy3 (2.4.0)	AC	http://abc019.contest.atcoder.jp/submissions/4634533
+B - 高橋くんと文字列圧縮	Bash (GNU bash v4.3.11)	WA	http://abc019.contest.atcoder.jp/submissions/4634472
+A - 高橋くんと年齢	Octave (4.0.2)	WA	http://abc019.contest.atcoder.jp/submissions/4572131
+A - 高橋くんと年齢	Python3 (3.4.3)	WA	http://abc019.contest.atcoder.jp/submissions/4436350
+A - 高橋くんと年齢	Objective-C (GCC 5.3.0)	AC	http://abc019.contest.atcoder.jp/submissions/3227511
+A - 高橋くんと年齢	Objective-C (GCC 5.3.0)	WA	http://abc019.contest.atcoder.jp/submissions/3227509
+A - 高橋くんと年齢	PyPy3 (2.4.0)	AC	http://abc019.contest.atcoder.jp/submissions/2915937
+A - 高橋くんと年齢	PyPy3 (2.4.0)	WA	http://abc019.contest.atcoder.jp/submissions/2915927
+C - 高橋くんと魔法の箱	Java8 (OpenJDK 1.8.0)	AC	http://abc019.contest.atcoder.jp/submissions/2273996
+C - 高橋くんと魔法の箱	Java8 (OpenJDK 1.8.0)	RE	http://abc019.contest.atcoder.jp/submissions/2273960
+C - 高橋くんと魔法の箱	Java8 (OpenJDK 1.8.0)	TLE	http://abc019.contest.atcoder.jp/submissions/2262909
+B - 高橋くんと文字列圧縮	Python3 (3.4.3)	AC	http://abc019.contest.atcoder.jp/submissions/2164754
+A - 高橋くんと年齢	Python3 (3.4.3)	AC	http://abc019.contest.atcoder.jp/submissions/2146467
+A - 高橋くんと年齢	Python3 (3.4.3)	AC	http://abc019.contest.atcoder.jp/submissions/2146463
+A - 高橋くんと年齢	Python3 (3.4.3)	RE	http://abc019.contest.atcoder.jp/submissions/2146456
+A - 高橋くんと年齢	Python3 (3.4.3)	RE	http://abc019.contest.atcoder.jp/submissions/2146452
+A - 高橋くんと年齢	Python3 (3.4.3)	RE	http://abc019.contest.atcoder.jp/submissions/2146447
+AtCoder Beginner Contest 020
+B - 足し算	Objective-C (GCC 5.3.0)	AC	http://abc020.contest.atcoder.jp/submissions/4785587
+A - クイズ	Objective-C (GCC 5.3.0)	AC	http://abc020.contest.atcoder.jp/submissions/3227517
+A - クイズ	PyPy3 (2.4.0)	AC	http://abc020.contest.atcoder.jp/submissions/2915945
+B - 足し算	Python3 (3.4.3)	AC	http://abc020.contest.atcoder.jp/submissions/2176533
+B - 足し算	Python3 (3.4.3)	AC	http://abc020.contest.atcoder.jp/submissions/2176526
+B - 足し算	Java8 (OpenJDK 1.8.0)	AC	http://abc020.contest.atcoder.jp/submissions/2176516
+A - クイズ	Python3 (3.4.3)	AC	http://abc020.contest.atcoder.jp/submissions/2143764
+AtCoder Beginner Contest 021
+B - 嘘つきの高橋くん	Objective-C (GCC 5.3.0)	CE	http://abc021.contest.atcoder.jp/submissions/4790269
+B - 嘘つきの高橋くん	Python3 (3.4.3)	RE	http://abc021.contest.atcoder.jp/submissions/4635923
+B - 嘘つきの高橋くん	PyPy3 (2.4.0)	AC	http://abc021.contest.atcoder.jp/submissions/4635254
+B - 嘘つきの高橋くん	Python3 (3.4.3)	WA	http://abc021.contest.atcoder.jp/submissions/4635191
+B - 嘘つきの高橋くん	Python3 (3.4.3)	AC	http://abc021.contest.atcoder.jp/submissions/4635114
+B - 嘘つきの高橋くん	Python3 (3.4.3)	RE	http://abc021.contest.atcoder.jp/submissions/4635100
+C - 正直者の高橋くん	Python3 (3.4.3)	WA	http://abc021.contest.atcoder.jp/submissions/4123239
+C - 正直者の高橋くん	PyPy3 (2.4.0)	WA	http://abc021.contest.atcoder.jp/submissions/4118461
+C - 正直者の高橋くん	PyPy3 (2.4.0)	WA	http://abc021.contest.atcoder.jp/submissions/4118430
+C - 正直者の高橋くん	PyPy3 (2.4.0)	WA	http://abc021.contest.atcoder.jp/submissions/4118419
+A - 足し算	Objective-C (GCC 5.3.0)	AC	http://abc021.contest.atcoder.jp/submissions/3227519
+A - 足し算	PyPy3 (2.4.0)	AC	http://abc021.contest.atcoder.jp/submissions/2915961
+A - 足し算	Python3 (3.4.3)	AC	http://abc021.contest.atcoder.jp/submissions/2335845
+A - 足し算	Python3 (3.4.3)	WA	http://abc021.contest.atcoder.jp/submissions/2335840
+B - 嘘つきの高橋くん	Java8 (OpenJDK 1.8.0)	AC	http://abc021.contest.atcoder.jp/submissions/2209825
+A - 足し算	Python3 (3.4.3)	AC	http://abc021.contest.atcoder.jp/submissions/2143742
+AtCoder Beginner Contest 022
+B - Bumble Bee	Python3 (3.4.3)	AC	http://abc022.contest.atcoder.jp/submissions/4898130
+B - Bumble Bee	Objective-C (GCC 5.3.0)	AC	http://abc022.contest.atcoder.jp/submissions/4790276
+B - Bumble Bee	PyPy3 (2.4.0)	AC	http://abc022.contest.atcoder.jp/submissions/4570101
+B - Bumble Bee	Python3 (3.4.3)	AC	http://abc022.contest.atcoder.jp/submissions/4570084
+A - Best Body	Python3 (3.4.3)	AC	http://abc022.contest.atcoder.jp/submissions/4391000
+B - Bumble Bee	Bash (GNU bash v4.3.11)	WA	http://abc022.contest.atcoder.jp/submissions/3566113
+B - Bumble Bee	Bash (GNU bash v4.3.11)	WA	http://abc022.contest.atcoder.jp/submissions/3566112
+B - Bumble Bee	Bash (GNU bash v4.3.11)	WA	http://abc022.contest.atcoder.jp/submissions/3566111
+B - Bumble Bee	Bash (GNU bash v4.3.11)	WA	http://abc022.contest.atcoder.jp/submissions/3566108
+B - Bumble Bee	Awk (mawk 1.3.3)	AC	http://abc022.contest.atcoder.jp/submissions/3566106
+B - Bumble Bee	Awk (mawk 1.3.3)	WA	http://abc022.contest.atcoder.jp/submissions/3566104
+B - Bumble Bee	Awk (mawk 1.3.3)	WA	http://abc022.contest.atcoder.jp/submissions/3566103
+A - Best Body	Objective-C (GCC 5.3.0)	AC	http://abc022.contest.atcoder.jp/submissions/3227530
+A - Best Body	Objective-C (GCC 5.3.0)	WA	http://abc022.contest.atcoder.jp/submissions/3227529
+A - Best Body	Objective-C (GCC 5.3.0)	WA	http://abc022.contest.atcoder.jp/submissions/3227526
+A - Best Body	PyPy3 (2.4.0)	AC	http://abc022.contest.atcoder.jp/submissions/2915983
+A - Best Body	Python3 (3.4.3)	AC	http://abc022.contest.atcoder.jp/submissions/2915980
+A - Best Body	Python3 (3.4.3)	RE	http://abc022.contest.atcoder.jp/submissions/2915978
+B - Bumble Bee	Java8 (OpenJDK 1.8.0)	AC	http://abc022.contest.atcoder.jp/submissions/2209820
+B - Bumble Bee	Java8 (OpenJDK 1.8.0)	TLE	http://abc022.contest.atcoder.jp/submissions/2209768
+AtCoder Beginner Contest 023
+B - 手芸王	Objective-C (GCC 5.3.0)	AC	http://abc023.contest.atcoder.jp/submissions/4790288
+D - 射撃王	Objective-C (GCC 5.3.0)	AC	http://abc023.contest.atcoder.jp/submissions/4790285
+C - 収集王	Objective-C (GCC 5.3.0)	AC	http://abc023.contest.atcoder.jp/submissions/4790283
+D - 射撃王	Python3 (3.4.3)	AC	http://abc023.contest.atcoder.jp/submissions/4652589
+D - 射撃王	Python3 (3.4.3)	AC	http://abc023.contest.atcoder.jp/submissions/4652579
+D - 射撃王	Python3 (3.4.3)	AC	http://abc023.contest.atcoder.jp/submissions/4652515
+D - 射撃王	PyPy3 (2.4.0)	AC	http://abc023.contest.atcoder.jp/submissions/4652368
+D - 射撃王	Python3 (3.4.3)	AC	http://abc023.contest.atcoder.jp/submissions/4652359
+C - 収集王	PyPy3 (2.4.0)	AC	http://abc023.contest.atcoder.jp/submissions/4124009
+C - 収集王	Python3 (3.4.3)	AC	http://abc023.contest.atcoder.jp/submissions/4124007
+C - 収集王	Python3 (3.4.3)	RE	http://abc023.contest.atcoder.jp/submissions/4124001
+C - 収集王	Python3 (3.4.3)	RE	http://abc023.contest.atcoder.jp/submissions/4124000
+C - 収集王	PyPy3 (2.4.0)	TLE	http://abc023.contest.atcoder.jp/submissions/4123871
+C - 収集王	PyPy3 (2.4.0)	TLE	http://abc023.contest.atcoder.jp/submissions/4123825
+C - 収集王	Python3 (3.4.3)	TLE	http://abc023.contest.atcoder.jp/submissions/4123822
+A - 加算王	Objective-C (GCC 5.3.0)	AC	http://abc023.contest.atcoder.jp/submissions/3227536
+A - 加算王	PyPy3 (2.4.0)	AC	http://abc023.contest.atcoder.jp/submissions/2915998
+A - 加算王	Python3 (3.4.3)	AC	http://abc023.contest.atcoder.jp/submissions/2915996
+B - 手芸王	Python3 (3.4.3)	AC	http://abc023.contest.atcoder.jp/submissions/2201434
+A - 加算王	Java8 (OpenJDK 1.8.0)	AC	http://abc023.contest.atcoder.jp/submissions/2133492
+AtCoder Beginner Contest 024
+B - 自動ドア	Objective-C (GCC 5.3.0)	AC	http://abc024.contest.atcoder.jp/submissions/4790299
+B - 自動ドア	Python3 (3.4.3)	AC	http://abc024.contest.atcoder.jp/submissions/4634689
+B - 自動ドア	Python3 (3.4.3)	AC	http://abc024.contest.atcoder.jp/submissions/4634663
+A - 動物園	Python3 (3.4.3)	AC	http://abc024.contest.atcoder.jp/submissions/4391014
+A - 動物園	Objective-C (GCC 5.3.0)	AC	http://abc024.contest.atcoder.jp/submissions/3227543
+A - 動物園	PyPy3 (2.4.0)	AC	http://abc024.contest.atcoder.jp/submissions/2916020
+A - 動物園	Python3 (3.4.3)	AC	http://abc024.contest.atcoder.jp/submissions/2916017
+C - 民族大移動	Java8 (OpenJDK 1.8.0)	AC	http://abc024.contest.atcoder.jp/submissions/2288261
+B - 自動ドア	Java8 (OpenJDK 1.8.0)	WA	http://abc024.contest.atcoder.jp/submissions/2248937
+B - 自動ドア	Java8 (OpenJDK 1.8.0)	WA	http://abc024.contest.atcoder.jp/submissions/2248935
+B - 自動ドア	Java8 (OpenJDK 1.8.0)	RE	http://abc024.contest.atcoder.jp/submissions/2248934
+B - 自動ドア	Java8 (OpenJDK 1.8.0)	AC	http://abc024.contest.atcoder.jp/submissions/2193774
+A - 動物園	Java8 (OpenJDK 1.8.0)	AC	http://abc024.contest.atcoder.jp/submissions/2133462
+AtCoder Beginner Contest 025
+A - 25個の文字列	Python3 (3.4.3)	AC	http://abc025.contest.atcoder.jp/submissions/4896899
+B - 双子とスイカ割り	Awk (mawk 1.3.3)	WA	http://abc025.contest.atcoder.jp/submissions/3566118
+A - 25個の文字列	Objective-C (GCC 5.3.0)	AC	http://abc025.contest.atcoder.jp/submissions/3227553
+A - 25個の文字列	PyPy3 (2.4.0)	AC	http://abc025.contest.atcoder.jp/submissions/2916050
+A - 25個の文字列	Python3 (3.4.3)	AC	http://abc025.contest.atcoder.jp/submissions/2916048
+B - 双子とスイカ割り	Java8 (OpenJDK 1.8.0)	AC	http://abc025.contest.atcoder.jp/submissions/2209894
+A - 25個の文字列	Java8 (OpenJDK 1.8.0)	AC	http://abc025.contest.atcoder.jp/submissions/2133324
+AtCoder Beginner Contest 026
+B - N重丸	Python3 (3.4.3)	AC	http://abc026.contest.atcoder.jp/submissions/4898110
+B - N重丸	Objective-C (GCC 5.3.0)	AC	http://abc026.contest.atcoder.jp/submissions/4790316
+B - N重丸	PyPy3 (2.4.0)	AC	http://abc026.contest.atcoder.jp/submissions/4570020
+B - N重丸	Python3 (3.4.3)	AC	http://abc026.contest.atcoder.jp/submissions/4569999
+A - 掛け算の最大値	Objective-C (GCC 5.3.0)	AC	http://abc026.contest.atcoder.jp/submissions/3227556
+B - N重丸	Text (cat)	WA	http://abc026.contest.atcoder.jp/submissions/3224336
+A - 掛け算の最大値	PyPy3 (2.4.0)	AC	http://abc026.contest.atcoder.jp/submissions/2916475
+A - 掛け算の最大値	Python3 (3.4.3)	AC	http://abc026.contest.atcoder.jp/submissions/2916474
+A - 掛け算の最大値	Python3 (3.4.3)	WA	http://abc026.contest.atcoder.jp/submissions/2916473
+A - 掛け算の最大値	Python3 (3.4.3)	WA	http://abc026.contest.atcoder.jp/submissions/2916472
+C - 高橋君の給料	Java8 (OpenJDK 1.8.0)	AC	http://abc026.contest.atcoder.jp/submissions/2334248
+A - 掛け算の最大値	Java8 (OpenJDK 1.8.0)	AC	http://abc026.contest.atcoder.jp/submissions/2126093
+B - N重丸	Java8 (OpenJDK 1.8.0)	AC	http://abc026.contest.atcoder.jp/submissions/2121077
+AtCoder Beginner Contest 027
+A - 長方形	Objective-C (GCC 5.3.0)	AC	http://abc027.contest.atcoder.jp/submissions/3227558
+A - 長方形	PyPy3 (2.4.0)	AC	http://abc027.contest.atcoder.jp/submissions/2916477
+A - 長方形	Python3 (3.4.3)	AC	http://abc027.contest.atcoder.jp/submissions/2916476
+B - 島と橋	Java8 (OpenJDK 1.8.0)	AC	http://abc027.contest.atcoder.jp/submissions/2209956
+A - 長方形	Python3 (3.4.3)	AC	http://abc027.contest.atcoder.jp/submissions/2126087
+AtCoder Beginner Contest 028
+C - 数を3つ選ぶマン	Objective-C (GCC 5.3.0)	AC	http://abc028.contest.atcoder.jp/submissions/4790332
+B - 文字数カウント	Objective-C (GCC 5.3.0)	AC	http://abc028.contest.atcoder.jp/submissions/4790327
+A - テスト評価	Python3 (3.4.3)	RE	http://abc028.contest.atcoder.jp/submissions/4436411
+C - 数を3つ選ぶマン	Python3 (3.4.3)	AC	http://abc028.contest.atcoder.jp/submissions/4357866
+C - 数を3つ選ぶマン	Python3 (3.4.3)	AC	http://abc028.contest.atcoder.jp/submissions/4357704
+C - 数を3つ選ぶマン	PyPy3 (2.4.0)	AC	http://abc028.contest.atcoder.jp/submissions/4357600
+B - 文字数カウント	PyPy3 (2.4.0)	AC	http://abc028.contest.atcoder.jp/submissions/4357594
+C - 数を3つ選ぶマン	Python3 (3.4.3)	AC	http://abc028.contest.atcoder.jp/submissions/4357588
+B - 文字数カウント	Python3 (3.4.3)	AC	http://abc028.contest.atcoder.jp/submissions/4357560
+A - テスト評価	Python3 (3.4.3)	AC	http://abc028.contest.atcoder.jp/submissions/4264372
+A - テスト評価	Python3 (3.4.3)	AC	http://abc028.contest.atcoder.jp/submissions/4264358
+A - テスト評価	Objective-C (GCC 5.3.0)	AC	http://abc028.contest.atcoder.jp/submissions/3227559
+A - テスト評価	PyPy3 (2.4.0)	AC	http://abc028.contest.atcoder.jp/submissions/2916482
+C - 数を3つ選ぶマン	Java8 (OpenJDK 1.8.0)	AC	http://abc028.contest.atcoder.jp/submissions/2326223
+C - 数を3つ選ぶマン	Java8 (OpenJDK 1.8.0)	AC	http://abc028.contest.atcoder.jp/submissions/2274122
+B - 文字数カウント	Java8 (OpenJDK 1.8.0)	AC	http://abc028.contest.atcoder.jp/submissions/2148321
+B - 文字数カウント	Java8 (OpenJDK 1.8.0)	AC	http://abc028.contest.atcoder.jp/submissions/2148317
+A - テスト評価	Python3 (3.4.3)	AC	http://abc028.contest.atcoder.jp/submissions/2126080
+AtCoder Beginner Contest 029
+B - カキ	Objective-C (GCC 5.3.0)	CE	http://abc029.contest.atcoder.jp/submissions/4790347
+C - Brute-force Attack	Objective-C (GCC 5.3.0)	AC	http://abc029.contest.atcoder.jp/submissions/4790343
+C - Brute-force Attack	Python3 (3.4.3)	WA	http://abc029.contest.atcoder.jp/submissions/4660760
+C - Brute-force Attack	PyPy3 (2.4.0)	AC	http://abc029.contest.atcoder.jp/submissions/4660484
+C - Brute-force Attack	Python3 (3.4.3)	AC	http://abc029.contest.atcoder.jp/submissions/4660446
+C - Brute-force Attack	Python3 (3.4.3)	AC	http://abc029.contest.atcoder.jp/submissions/4660310
+C - Brute-force Attack	Python3 (3.4.3)	AC	http://abc029.contest.atcoder.jp/submissions/4660289
+C - Brute-force Attack	Python3 (3.4.3)	AC	http://abc029.contest.atcoder.jp/submissions/4660279
+B - カキ	Python3 (3.4.3)	AC	http://abc029.contest.atcoder.jp/submissions/4569838
+B - カキ	Python3 (3.4.3)	AC	http://abc029.contest.atcoder.jp/submissions/4357534
+B - カキ	PyPy3 (2.4.0)	AC	http://abc029.contest.atcoder.jp/submissions/3566121
+B - カキ	Python3 (3.4.3)	AC	http://abc029.contest.atcoder.jp/submissions/3566120
+A - 複数形	Objective-C (GCC 5.3.0)	AC	http://abc029.contest.atcoder.jp/submissions/3227560
+A - 複数形	PyPy3 (2.4.0)	AC	http://abc029.contest.atcoder.jp/submissions/2916483
+B - カキ	Python3 (3.4.3)	AC	http://abc029.contest.atcoder.jp/submissions/2340584
+A - 複数形	Python3 (3.4.3)	AC	http://abc029.contest.atcoder.jp/submissions/2340569
+C - Brute-force Attack	Java8 (OpenJDK 1.8.0)	AC	http://abc029.contest.atcoder.jp/submissions/2326245
+C - Brute-force Attack	Java8 (OpenJDK 1.8.0)	AC	http://abc029.contest.atcoder.jp/submissions/2274164
+B - カキ	Python3 (3.4.3)	AC	http://abc029.contest.atcoder.jp/submissions/2170708
+B - カキ	Python3 (3.4.3)	RE	http://abc029.contest.atcoder.jp/submissions/2170706
+AtCoder Beginner Contest 030
+B - 時計盤	Objective-C (GCC 5.3.0)	AC	http://abc030.contest.atcoder.jp/submissions/4790361
+B - 時計盤	Java8 (OpenJDK 1.8.0)	WA	http://abc030.contest.atcoder.jp/submissions/4357283
+B - 時計盤	Java8 (OpenJDK 1.8.0)	WA	http://abc030.contest.atcoder.jp/submissions/4357277
+B - 時計盤	Python3 (3.4.3)	AC	http://abc030.contest.atcoder.jp/submissions/4356390
+B - 時計盤	Python3 (3.4.3)	AC	http://abc030.contest.atcoder.jp/submissions/4356373
+B - 時計盤	PyPy3 (2.4.0)	AC	http://abc030.contest.atcoder.jp/submissions/4356355
+B - 時計盤	Python3 (3.4.3)	AC	http://abc030.contest.atcoder.jp/submissions/4356295
+A - 勝率計算	Python3 (3.4.3)	AC	http://abc030.contest.atcoder.jp/submissions/4264343
+B - 時計盤	Awk (mawk 1.3.3)	WA	http://abc030.contest.atcoder.jp/submissions/3566124
+A - 勝率計算	Objective-C (GCC 5.3.0)	AC	http://abc030.contest.atcoder.jp/submissions/3227569
+A - 勝率計算	Objective-C (GCC 5.3.0)	WA	http://abc030.contest.atcoder.jp/submissions/3227564
+A - 勝率計算	PyPy3 (2.4.0)	AC	http://abc030.contest.atcoder.jp/submissions/2916484
+C - 飛行機乗り	Java8 (OpenJDK 1.8.0)	AC	http://abc030.contest.atcoder.jp/submissions/2326343
+B - 時計盤	Java8 (OpenJDK 1.8.0)	AC	http://abc030.contest.atcoder.jp/submissions/2148328
+A - 勝率計算	Python3 (3.4.3)	AC	http://abc030.contest.atcoder.jp/submissions/2126067
+AtCoder Beginner Contest 031
+B - 運動管理	Python3 (3.4.3)	AC	http://abc031.contest.atcoder.jp/submissions/4898018
+C - 数列ゲーム	Objective-C (GCC 5.3.0)	AC	http://abc031.contest.atcoder.jp/submissions/4790375
+B - 運動管理	Objective-C (GCC 5.3.0)	AC	http://abc031.contest.atcoder.jp/submissions/4790371
+B - 運動管理	Go (1.6)	AC	http://abc031.contest.atcoder.jp/submissions/4356731
+B - 運動管理	Go (1.6)	WA	http://abc031.contest.atcoder.jp/submissions/4356723
+B - 運動管理	Python3 (3.4.3)	AC	http://abc031.contest.atcoder.jp/submissions/4356189
+A - ゲーム	Python3 (3.4.3)	AC	http://abc031.contest.atcoder.jp/submissions/4356156
+B - 運動管理	Python3 (3.4.3)	AC	http://abc031.contest.atcoder.jp/submissions/4199614
+B - 運動管理	Python3 (3.4.3)	AC	http://abc031.contest.atcoder.jp/submissions/4199600
+B - 運動管理	Python3 (3.4.3)	AC	http://abc031.contest.atcoder.jp/submissions/4199591
+B - 運動管理	PyPy3 (2.4.0)	AC	http://abc031.contest.atcoder.jp/submissions/4199579
+B - 運動管理	Python3 (3.4.3)	AC	http://abc031.contest.atcoder.jp/submissions/4199577
+A - ゲーム	PyPy3 (2.4.0)	AC	http://abc031.contest.atcoder.jp/submissions/4199563
+A - ゲーム	PyPy3 (2.4.0)	AC	http://abc031.contest.atcoder.jp/submissions/4199560
+A - ゲーム	Python3 (3.4.3)	AC	http://abc031.contest.atcoder.jp/submissions/4199558
+C - 数列ゲーム	PyPy3 (2.4.0)	AC	http://abc031.contest.atcoder.jp/submissions/4199547
+C - 数列ゲーム	Python3 (3.4.3)	AC	http://abc031.contest.atcoder.jp/submissions/4199544
+A - ゲーム	Objective-C (GCC 5.3.0)	AC	http://abc031.contest.atcoder.jp/submissions/3231046
+C - 数列ゲーム	Java8 (OpenJDK 1.8.0)	AC	http://abc031.contest.atcoder.jp/submissions/2270895
+C - 数列ゲーム	Java8 (OpenJDK 1.8.0)	WA	http://abc031.contest.atcoder.jp/submissions/2270893

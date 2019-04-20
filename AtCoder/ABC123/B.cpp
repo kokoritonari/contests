@@ -2,12 +2,12 @@
 using namespace std;
 
 int main() {
-  vector<int> a(5);
-  vector<int> b(5);
-  for (auto& e : a) cin >> e;
-  for (int i = 0; i < 5; i++) b.at(i) = (a.at(i) - 1) % 10;
-  min(b);
-  //int iter = find(b.begin(), b.end(), 8);
-  // int index = distance'(b.begin(), iter);
-  // cout << index << endl;
+  int sum = 0, maxDiff = 0;
+  for (int i = 0; i < 5; i++) {
+    int a; cin >> a;
+    int b = (a + 9) / 10 * 10;
+    sum += b;
+    maxDiff = max(maxDiff, b - a);
+  }
+  cout << sum - maxDiff << endl;
 }

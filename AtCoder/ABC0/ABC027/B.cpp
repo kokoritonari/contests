@@ -11,33 +11,12 @@ int main() {
     return 0;
   }
   int mean = sum / n;
+  for (auto& e: a) e -= mean;
   sum = 0;
-  int cnt = 0, ans = 0;
-  int i;
-  for (i = 0; i < n; i++) {
+  int ans = 0;
+  for (int i = 0; i < n; i++) {
     sum += a.at(i);
-    cnt++;
-    if (sum % cnt == 0 && sum / cnt == mean) {
-      sum = 0;
-      cnt = 0;
-    } else if (sum / cnt < mean) {
-      break;
-    } else {
-      ans++;
-    }
-  }
-  sum = 0, cnt = 0;
-  for (int j = n - 1; j >= i; j--) {
-    sum += a.at(j);
-    cnt++;
-    if (sum % cnt == 0 && sum / cnt == mean) {
-      sum = 0;
-      cnt = 0;
-    } else if (sum / cnt < mean) {
-      break;
-    } else {
-      ans++;
-    }
+    if (sum != 0) ans++;
   }
   cout << ans << endl;
 }

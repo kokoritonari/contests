@@ -36,3 +36,6 @@
 * mapの要素の取り出し方
   * `for (auto i = mp.begin(); i != mp.end(); i++) cout << i->second << endl;`
   * `for (auto e: mp) cout << e.second << endl;`
+* int型の範囲
+  * `10 ** 9`までは入る
+  * それ以上は`long long`を使わないと入らない

@@ -1,5 +1,5 @@
-S=int(input())
-print(S//3600,S//60%60,S%60,sep=":")
+s=int(input())
+print(s//3600,s//60%60,s%60,sep=':')
 """
 S=int(input())
 m,s=divmod(S,60)

@@ -1,7 +1,12 @@
+try:
+ while 1:print(int(eval(input())))
+except:pass
+"""
 import sys
 for e in sys.stdin:
  if"?"in e:break
  print(int(eval(e)))
+"""
 """
 while 1:
  s=input()

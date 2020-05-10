@@ -1,7 +1,10 @@
+for e in list(open(0))[:-1]:print(*sorted(map(int,e.split())))
+"""
 import sys
 for s in sys.stdin:
  if"0 0\n"==s:break
  print(*sorted(map(int,s.split())))
+"""
 """
 while True:
     numbers = list(map(int, input().split()))

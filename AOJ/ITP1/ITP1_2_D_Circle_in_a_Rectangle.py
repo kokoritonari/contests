@@ -1,4 +1,5 @@
 w,h,x,y,r=map(int,input().split())
-print(("No","Yes")[(r<=x<=w-r)*(r<=y<=h-r)])
+print('Yes'*(r<=x<=w-r)*(r<=y<=h-r)or'No')
 # W, H, x, y, r = map(int, input().split())
 # print(["No", "Yes"][(r <= x <= W - r) * (r <= y <= H - r)])
+# print(("No","Yes")[(r<=x<=w-r)&(r<=y<=h-r)])

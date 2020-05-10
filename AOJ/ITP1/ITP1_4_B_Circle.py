@@ -1,6 +1,9 @@
+r=float(input());s=r*3.14159265359;print(s*r,2*s)
+"""
 from math import pi
 r=float(input())
 print(r*r*pi,2*r*pi)
+"""
 """
 import math
 r = float(input())

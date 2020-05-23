@@ -6,6 +6,13 @@ while 1:
 """
 while 1:
  h,w=map(int,input().split())
+ if h==0:break
+ for i in range(h):print(("#."*w)[i%2:][:w])
+ print()
+"""
+"""
+while 1:
+ h,w=map(int,input().split())
  if h==w==0:break
  for _ in range(h):
   print((["#.",".#"][_%2])*(w//2)+["#","."][_%2]*(w%2))

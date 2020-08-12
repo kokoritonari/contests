@@ -1,11 +1,13 @@
 using System;
 using System.Linq;
+using static System.Console;
 
-class Program
+class P
 {
-    public static void Main(string[] args)
+    static void Main()
     {
-        int[] a = Console.ReadLine().Split().Select(int.Parse).ToArray();
-        Console.WriteLine("{0} {1}", a.Aggregate((now, next) => now * next), a.Sum() * 2);
+        var a = ReadLine().Split().Select(int.Parse).ToList();
+        // WriteLine("{0} {1}", a.Aggregate((now, next) => now * next), a.Sum() * 2);
+        WriteLine($"{a[0] * a[1]} {a.Sum() * 2}");
     }
 }

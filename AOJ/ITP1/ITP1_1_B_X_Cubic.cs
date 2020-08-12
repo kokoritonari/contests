@@ -1,10 +1,10 @@
 using System;
+using static System.Console;
 
-class Program
+class P
 {
-    public static void Main(string[] args)
+    static void Main()
     {
-        var n = int.Parse(Console.ReadLine());
-        Console.WriteLine(Math.Pow(n, 3));
+        WriteLine(Math.Pow(int.Parse(ReadLine()), 3));
     }
 }

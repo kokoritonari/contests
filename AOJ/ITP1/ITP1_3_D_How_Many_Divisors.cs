@@ -1,22 +1,18 @@
 using System;
 using System.Linq;
+using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
+        var arr = ReadLine().Split().Select(int.Parse).ToList();
+        int a = arr[0], b = arr[1], c = arr[2];
+        var ans = 0;
+        for (int d = a; d <= b; d++)
         {
-            var arr = Console.ReadLine().Split().Select(int.Parse).ToArray();
-            int a = arr[0];
-            int b = arr[1];
-            int c = arr[2];
-            int ans = 0;
-            for (int divisor = a; divisor <= b; divisor++)
-            {
-                if (c % divisor == 0) ans++;
-            }
-            Console.WriteLine(ans);
+            if (c % d == 0) ans++;
         }
+        WriteLine(ans);
     }
 }

@@ -1,14 +1,12 @@
 using System;
 using System.Linq;
+using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
-        {
-            var a = Console.ReadLine().Split().Select(int.Parse).ToArray();
-            Console.WriteLine(a[0] < a[1] && a[1] < a[2] ? "Yes" : "No");
-        }
+        var a = ReadLine().Split().Select(int.Parse).ToList();
+        WriteLine(a[0] < a[1] && a[1] < a[2] ? "Yes" : "No");
     }
 }

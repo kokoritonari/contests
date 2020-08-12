@@ -1,16 +1,17 @@
 using System;
 using System.Linq;
+using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
+        /*
+        for (var i = 0; i < 1000; i++)
         {
-            for (var i = 0; i < 1000; i++)
-            {
-                Console.WriteLine("Hello World");
-            }
+            Console.WriteLine("Hello World");
         }
+        */
+        new int[1000].ToList().ForEach(x => WriteLine("Hello World"));
     }
 }

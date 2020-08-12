@@ -1,18 +1,15 @@
 using System;
-using System.Linq;
+using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
+        for (int i = 1;; i++)
         {
-            for (var i = 1; true; i++)
-            {
-                int x = int.Parse(Console.ReadLine());
-                if (x == 0) break;
-                Console.WriteLine("Case " + i + ": " + x);
-            }
+            var x = ReadLine();
+            if (x == "0") break;
+            WriteLine($"Case {i}: {x}");
         }
     }
 }

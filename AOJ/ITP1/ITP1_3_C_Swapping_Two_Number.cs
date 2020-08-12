@@ -1,18 +1,16 @@
 using System;
 using System.Linq;
+using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
+        while (true)
         {
-            while (true)
-            {
-                var a = Console.ReadLine().Split().Select(int.Parse).ToArray();
-                if (a[0] == 0 && a[1] == 0) break;
-                Console.WriteLine(string.Join(" ", a.OrderBy(x => x)));
-            }
+            var a = ReadLine().Split().Select(int.Parse).ToList();
+            if (a[0] == 0 && a[1] == 0) break;
+            WriteLine(string.Join(" ", a.OrderBy(x => x)));
         }
     }
 }

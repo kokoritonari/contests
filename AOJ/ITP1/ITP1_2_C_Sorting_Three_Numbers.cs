@@ -1,14 +1,11 @@
 using System;
 using System.Linq;
+using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
-        {
-            var a = Console.ReadLine().Split().Select(int.Parse).ToArray().OrderBy(x => x);
-            Console.WriteLine(string.Join(" ", a));
-        }
+        WriteLine(string.Join(" ", ReadLine().Split().Select(int.Parse).OrderBy(x => x)));
     }
 }

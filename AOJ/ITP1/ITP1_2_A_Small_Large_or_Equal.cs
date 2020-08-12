@@ -1,15 +1,14 @@
 using System;
 using System.Linq;
+using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
-        {
-            var a = Console.ReadLine().Split().Select(int.Parse).ToArray();
-            Console.WriteLine(a[0] == a[1] ? "a == b" :
-                              a[0] >  a[1] ? "a > b"  : "a < b");
-        }
+        var a = ReadLine().Split().Select(int.Parse).ToList();
+        WriteLine($"a {(a[0] > a[1] ? ">" : a[0] < a[1] ? "<" : "==")} b");
+        // Console.WriteLine(a[0] == a[1] ? "a == b" :
+        //                   a[0] >  a[1] ? "a > b"  : "a < b");
     }
 }

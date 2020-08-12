@@ -1,11 +1,11 @@
 using System;
-using System.Linq;
+using static System.Console;
 
-class Program
+class P
 {
-    public static void Main(string[] args)
+    static void Main()
     {
-        int S = int.Parse(Console.ReadLine());
-        Console.WriteLine("{0}:{1}:{2}", S / 3600, S / 60 % 60, S % 60);
+        var s = int.Parse(ReadLine());
+        WriteLine($"{s / 3600}:{s / 60 % 60}:{s % 60}");
     }
 }

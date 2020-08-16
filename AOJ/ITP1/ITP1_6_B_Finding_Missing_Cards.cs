@@ -1,45 +1,24 @@
 using System;
-using System.Linq;
+using System.Collections.Generic;
 using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
+        var a = new List<string>();
+        foreach (var e in "SHCD")
         {
-            int n = int.Parse(ReadLine());
-            string[] cards = new string[52];
-            int k = 0;
-            foreach (var suit in "SHCD")
+            for (int i = 1; i < 14; i++)
             {
-                for (int i = 1; i <= 13; i++)
-                {
-                    cards[k] = suit + " " + i.ToString();
-                    k++;
-                }
-            }
-
-            for (int i = 0; i < n; i++)
-            {
-                string s = ReadLine();
-                for (int j = 0; j < cards.Length; j++)
-                {
-                    if (s == cards[j])
-                    {
-                        cards[j] = null;
-                        break;
-                    }
-                }
-            }
-
-            for (int i = 0; i < cards.Length; i++)
-            {
-                if (!(cards[i] == null))
-                {
-                    WriteLine(cards[i]);
-                }
+                a.Add($"{e} {i}");
             }
         }
+        var n = int.Parse(ReadLine());
+        for (int i = 0; i < n; i++)
+        {
+            a.Remove(ReadLine());
+        }
+        if (a.Count != 0) WriteLine(string.Join("\n", a));
     }
 }

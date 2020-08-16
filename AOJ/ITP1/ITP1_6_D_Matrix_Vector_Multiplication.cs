@@ -2,42 +2,29 @@ using System;
 using System.Linq;
 using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
+        var a = ReadLine().Split().Select(int.Parse).ToList();
+        int n = a[0], m = a[1];
+        var A = new int[n][];
+        var b = new int[m];
+        for (int ni = 0; ni < n; ni++)
         {
-            var nm = ReadLine().Split().Select(int.Parse).ToArray();
-            int n = nm[0], m = nm[1];
-            int[,] matrix = new int[n, m];
-            for (int i = 0; i < n; i++)
+            A[ni] = ReadLine().Split().Select(int.Parse).ToArray();
+        }
+        for (int mi = 0; mi < m; mi++)
+        {
+            b[mi] = int.Parse(ReadLine());
+        }
+        for (int ni = 0; ni < n; ni++)
+        {
+            for (int mi = 0; mi < m; mi++)
             {
-                int[] a = ReadLine().Split().Select(int.Parse).ToArray();
-                for (int j = 0; j < m; j++)
-                {
-                    matrix[i, j] = a[j];
-                }
+                A[ni][mi] *= b[mi];
             }
-            int[] vector = new int[m];
-            for (int i = 0; i < m; i++)
-            {
-                vector[i] = int.Parse(ReadLine());
-            }
-
-            int[] ans = new int[n];
-            for (int i = 0; i < n; i++)
-            {
-                for (int j = 0; j < m; j++)
-                {
-                    ans[i] += matrix[i, j] * vector[j];
-                }
-            }
-
-            for (int i = 0; i < n; i++)
-            {
-                WriteLine(ans[i]);
-            }
+            WriteLine(A[ni].Sum());
         }
     }
 }

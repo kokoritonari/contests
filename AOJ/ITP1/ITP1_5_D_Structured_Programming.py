@@ -1,5 +1,4 @@
-n = int(input())
-print("", *[str(i) for i in range(3, n+1) if i % 3 == 0 or "3" in str(i)])
+print("",*[i for i in range(3,-~int(input()))if 0==i%3or"3"in str(i)])
 """
 def call(n):
     i = 1

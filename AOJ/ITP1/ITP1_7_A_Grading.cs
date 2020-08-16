@@ -2,42 +2,19 @@ using System;
 using System.Linq;
 using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
+        while (true)
         {
-            while (true)
-            {
-                var a = ReadLine().Split().Select(int.Parse).ToArray();
-                int m = a[0], f = a[1], r = a[2], mf = a[0] + a[1];
-                if (m == ~0 && f == ~0 && r == ~0) break;
-                if (m == ~0 || f == ~0)
-                {
-                    WriteLine("F");
-                }
-                else if (mf >= 80)
-                {
-                    WriteLine("A");
-                }
-                else if (mf >= 65)
-                {
-                    WriteLine("B");
-                }
-                else if (mf >= 50 || r >= 50)
-                {
-                    WriteLine("C");
-                }
-                else if (mf >= 30)
-                {
-                    WriteLine("D");
-                }
-                else
-                {
-                    WriteLine("F");
-                }
-            }
+            var a = ReadLine().Split().Select(int.Parse).ToList();
+            int m = a[0], f = a[1], r = a[2], s = m + f;
+            if (m + f + r == -3) break;
+            WriteLine(m == ~0 || f == ~0 || s < 30 ? "F" :
+                      s < 50 ? r < 50 ? "D" : "C" :
+                      s < 65 ? "C" :
+                      s < 80 ? "B" : "A");
         }
     }
 }

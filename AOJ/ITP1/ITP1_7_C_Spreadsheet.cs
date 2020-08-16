@@ -1,44 +1,25 @@
 using System;
 using System.Linq;
+using System.Collections.Generic;
 using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
+        var a = ReadLine().Split().Select(int.Parse).ToList();
+        var s = new List<List<int>>();
+        var t = new int[-~a[1]];
+        for (int i = 0; i < a[0]; i++)
         {
-            var a = ReadLine().Split().Select(int.Parse).ToArray();
-            int r = a[0], c = a[1];
-            int[,] sheet = new int[r + 1, c + 1];
-            for (int ri = 0; ri < r; ri++)
+            s.Add(ReadLine().Split().Select(int.Parse).ToList());
+            s[i].Add(s[i].Sum());
+            for (int j = 0; j < s[i].Count; j++)
             {
-                var tmp = ReadLine().Split().Select(int.Parse).ToArray();
-                for (int ci = 0; ci < c; ci++)
-                {
-                    sheet[ri, ci] = tmp[ci];
-                    sheet[r, ci] += tmp[ci];
-                }
-            }
-
-            int[] rowsum = new int[r + 1];
-            for (int ci = 0; ci < c; ci++)
-            {
-                for (int ri = 0; ri < r + 1; ri++)
-                {
-                    sheet[ri, c] += sheet[ri, ci];
-                }
-            }
-
-            for (int i = 0; i < r + 1; i++)
-            {
-                for (int j = 0; j < c + 1; j++)
-                {
-                    if (j != 0) Write(" ");
-                    Write(sheet[i, j]);
-                }
-                WriteLine();
+                t[j] += s[i][j];
             }
         }
+        s.Add(t.ToList());
+        s.ForEach(x => WriteLine(string.Join(" ", x)));
     }
 }

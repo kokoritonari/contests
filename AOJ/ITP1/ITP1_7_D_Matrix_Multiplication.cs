@@ -1,58 +1,38 @@
 using System;
 using System.Linq;
+using System.Collections.Generic;
 using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
+        var a = ReadLine().Split().Select(int.Parse).ToList();
+        int n = a[0], m = a[1], l = a[2];
+        var A = new List<List<long>>();
+        var B = new List<List<long>>();
+        var C = new List<List<long>>();
+        for (int i = 0; i < n; i++)
         {
-            var tmp = ReadLine().Split().Select(int.Parse).ToArray();
-            int n = tmp[0], m = tmp[1], l = tmp[2];
-            long[,] A = new long[n, m], B = new long[m, l];
-            long[,] C = new long[n, l];
-
-            for (int ni = 0; ni < n; ni++)
+            A.Add(ReadLine().Split().Select(long.Parse).ToList());
+        }
+        for (int i = 0; i < m; i++)
+        {
+            B.Add(ReadLine().Split().Select(long.Parse).ToList());
+        }
+        for (int ni = 0; ni < n; ni++)
+        {
+            for (int li = 0; li < l; li++)
             {
-                tmp = ReadLine().Split().Select(int.Parse).ToArray();
+                long inner = 0;
                 for (int mi = 0; mi < m; mi++)
                 {
-                    A[ni, mi] = tmp[mi];
+                    inner += A[ni][mi] * B[mi][li];
                 }
+                if (li > 0) Write(" ");
+                Write(inner);
             }
-
-            for (int mi = 0; mi < m; mi++)
-            {
-                tmp = ReadLine().Split().Select(int.Parse).ToArray();
-                for (int li = 0; li < l; li++)
-                {
-                    B[mi, li] = tmp[li];
-                }
-            }
-
-            for (int ni = 0; ni < n; ni++)
-            {
-                for (int li = 0; li < l; li++)
-                {
-                    long sum = 0;
-                    for (int mi = 0; mi < m; mi++)
-                    {
-                        sum += A[ni, mi] * B[mi, li];
-                    }
-                    C[ni, li] = sum;
-                }
-            }
-
-            for (int ni = 0; ni < n; ni++)
-            {
-                for (int li = 0; li < l; li++)
-                {
-                    if (li != 0) Write(" ");
-                    Write(C[ni, li]);
-                }
-                WriteLine();
-            }
+            WriteLine();
         }
     }
 }

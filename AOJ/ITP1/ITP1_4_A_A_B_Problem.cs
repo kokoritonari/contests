@@ -1,16 +1,13 @@
 using System;
 using System.Linq;
+using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
-        {
-            int[] arr = Console.ReadLine().Split().Select(int.Parse).ToArray();
-            int a = arr[0];
-            int b = arr[1];
-            Console.WriteLine("{0} {1} {2:f5}", a / b, a % b, (double) a / b);
-        }
+        var arr = ReadLine().Split().Select(int.Parse).ToList();
+        int a = arr[0], b = arr[1];
+        WriteLine($"{a / b} {a % b} {(double) a / b :f5}");
     }
 }

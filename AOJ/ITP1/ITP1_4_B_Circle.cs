@@ -1,14 +1,11 @@
 using System;
-using System.Linq;
+using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
-        {
-            var r = double.Parse(Console.ReadLine());
-            Console.WriteLine("{0} {1}", r * r * Math.PI, 2 * r * Math.PI);
-        }
+        var r = double.Parse(ReadLine());
+        WriteLine($"{r * r * Math.PI :f5} {2 * r * Math.PI :f5}");
     }
 }

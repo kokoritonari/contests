@@ -2,32 +2,24 @@ using System;
 using System.Linq;
 using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
+        while (true)
         {
-            while (true)
+            var a = ReadLine().Split().Select(int.Parse).ToList();
+            int n = a[0], x = a[1], ans = 0;
+            if (n + x == 0) break;
+            for (int i = 1; i <= n; i++)
             {
-                var a = ReadLine().Split().Select(int.Parse).ToArray();
-                int n = a[0], x = a[1];
-                if (n == 0 && x == 0) break;
-                int ans = 0;
-                for (int i = 1; i < n - 1; i++)
+                for (int j = -~i; j <= n; j++)
                 {
-                    for (int j = i + 1; j < n; j++)
-                    {
-                        for (int k = j + 1; k <= n; k++)
-                        {
-                            int s = i + j + k;
-                            if (s > x) break;
-                            if (s == x) ans++;
-                        }
-                    }
+                    var k = x - i - j;
+                    if (j < k && k <= n) ans++;
                 }
-                WriteLine(ans);
             }
+            WriteLine(ans);
         }
     }
 }

@@ -2,38 +2,24 @@ using System;
 using System.Linq;
 using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
+        while (true)
         {
-            while (true)
+            var a = ReadLine().Split().Select(int.Parse).ToList();
+            int h = a[0], w = a[1];
+            if (h == 0 && w == 0) break;
+            for (int hi = 0; hi < h; hi++)
             {
-                int[] A = Console.ReadLine().Split().Select(int.Parse).ToArray();
-                int H = A[0], W = A[1];
-                if (H == 0 && W == 0) break;
-                for (int i = 0; i < W; i++)
+                for (int wi = 0; wi < w; wi++)
                 {
-                    Write("#");
+                    Write(hi == 0 || hi == ~-h || wi == 0 || wi == ~-w ? "#" : ".");
                 }
                 WriteLine();
-
-                for (int i = 0; i < H - 2; i++)
-                {
-                    Write("#");
-                    for (int j = 0; j < W - 2; j++)
-                    {
-                        Write(".");
-                    }
-                    WriteLine("#");
-                }
-                for (int i = 0; i < W; i++)
-                {
-                    Write("#");
-                }
-                WriteLine('\n');
             }
+            WriteLine();
         }
     }
 }

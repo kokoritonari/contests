@@ -1,27 +1,17 @@
 using System;
-using System.Linq;
+using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
+        while (true)
         {
-            while (true)
-            {
-                string[] arr = Console.ReadLine().Split();
-                int a = int.Parse(arr[0]), b = int.Parse(arr[2]); string op = arr[1];
-                if (op == "?") break;
-                if (op == "+") {
-                    Console.WriteLine(a + b);
-                } else if (op == "-") {
-                    Console.WriteLine(a - b);
-                } else if (op == "*") {
-                    Console.WriteLine(a * b);
-                } else if (op == "/") {
-                    Console.WriteLine(a / b);
-                }
-            }
+            var arr = ReadLine().Split();
+            var op = arr[1];
+            if (op == "?") break;
+            int a = int.Parse(arr[0]), b = int.Parse(arr[2]);
+            WriteLine(op == "+" ? a + b : op == "-" ? a - b : op == "*" ? a * b : a / b);
         }
     }
 }

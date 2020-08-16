@@ -2,21 +2,14 @@ using System;
 using System.Linq;
 using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
-        {
-            var w = Console.ReadLine().ToLower();
-            var res = 0;
-            while (true)
-            {
-                var t = Console.ReadLine();
-                if (t == "END_OF_TEXT") break;
-                res += t.Split().Select(s => s.ToLower()).Count(s => s == w);
-            }
-            Console.WriteLine(res);
-        }
+        var w = ReadLine();
+        var a = 0;
+        for (var s = ""; s != "END_OF_TEXT"; s = ReadLine())
+            a += s.ToLower().Split().Count(x => x == w);
+        WriteLine(a);
     }
 }

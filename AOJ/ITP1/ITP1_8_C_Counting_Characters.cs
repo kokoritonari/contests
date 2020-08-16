@@ -1,34 +1,13 @@
 using System;
 using System.Linq;
-using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
-        {
-            string str;
-            int[] a = new int[26];
-            while ((str = ReadLine()) != null)
-            {
-                 for (int i = 0; i < str.Length; i++)
-                {
-                    if ('A' <= str[i] && str[i] <= 'Z')
-                    {
-                        a[str[i] - 'A']++;
-                    }
-                    else if ('a' <= str[i] && str[i] <= 'z')
-                    {
-                        a[str[i] - 'a']++;
-                    }
-                }
-            }
-
-            for (int i = 0; i < a.Length; i++)
-            {
-                WriteLine("{0} : {1}", (char) ('a' + i), a[i]);
-            }
-        }
+        var s = "";
+        for (var t = ""; t != null; t = Console.ReadLine()) s += t.ToLower();
+        for (char c = 'a'; c <= 'z'; c++)
+            Console.WriteLine($"{c} : {s.Count(x => x == c)}");
     }
 }

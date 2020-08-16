@@ -1,26 +1,11 @@
 using System;
-using System.Linq;
-using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
-        {
-            var str = ReadLine().ToArray();
-            for (int i = 0; i < str.Length; i++)
-            {
-                if ('A' <= str[i] && str[i] <= 'Z')
-                {
-                    str[i] = (char) (str[i] + 'a' - 'A');
-                }
-                else if ('a' <= str[i] && str[i] <= 'z')
-                {
-                    str[i] = (char) (str[i] - 'a' + 'A');
-                }
-            }
-            WriteLine(str);
-        }
+        foreach (var c in Console.ReadLine())
+            Console.Write(char.IsUpper(c) ? char.ToLower(c) : char.ToUpper(c));
+        Console.WriteLine();
     }
 }

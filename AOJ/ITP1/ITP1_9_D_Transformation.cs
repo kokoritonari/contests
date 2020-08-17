@@ -2,32 +2,19 @@ using System;
 using System.Linq;
 using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
+        var s = ReadLine();
+        var n = int.Parse(ReadLine());
+        for (string q = ReadLine(); q != null; q = ReadLine())
         {
-            var str = ReadLine();
-            var q = int.Parse(ReadLine());
-            for (int i = 0; i < q; i++)
-            {
-                var query = ReadLine().Split();
-                int a = int.Parse(query[1]);
-                int b = int.Parse(query[2]);
-                if (query[0] == "replace")
-                {
-                    str = str.Substring(0, a) + query[3] + str.Substring(b + 1);
-                }
-                else if (query[0] == "reverse")
-                {
-                    str = str.Substring(0, a) + string.Join("", str.Substring(a, b - a + 1).Reverse()) + str.Substring(b + 1);
-                }
-                else
-                {
-                    WriteLine(str.Substring(a, b - a + 1));
-                }
-            }
+            var r = q.Split();
+            int a = int.Parse(r[1]), b = int.Parse(r[2]);
+            if (q[2] == 'i') WriteLine(s.Substring(a, -~b - a));
+            if (q[2] == 'v') s = s.Substring(0, a) + string.Join("", s.Substring(a, -~b - a).Reverse()) + s.Substring(-~b);
+            if (q[2] == 'p') {s = s.Remove(a, -~b - a); s = s.Insert(a, r[3]);}
         }
     }
 }

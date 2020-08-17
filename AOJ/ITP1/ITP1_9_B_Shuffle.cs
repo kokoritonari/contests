@@ -1,27 +1,16 @@
 using System;
-using System.Linq;
 using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
+        for (var s = ReadLine(); s != "-"; s = ReadLine())
         {
-            while (true)
-            {
-                var deck = ReadLine();
-                if (deck == "-") break;
-
-                var nShuffle = int.Parse(ReadLine());
-                int h = 0;
-                for (int i = 0; i < nShuffle; i++)
-                {
-                    h += int.Parse(ReadLine());
-                }
-                h %= deck.Length;
-                Console.WriteLine(deck.Substring(h) + deck.Substring(0, h));
-            }
+            var h = 0;
+            for (int i = 0, m = int.Parse(ReadLine()); i < m; i++)
+                h += int.Parse(ReadLine());
+            WriteLine((s + s).Substring(h % s.Length, s.Length));
         }
     }
 }

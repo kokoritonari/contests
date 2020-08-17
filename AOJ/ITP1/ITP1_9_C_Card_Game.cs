@@ -1,22 +1,18 @@
 using System;
-using System.Linq;
 using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
+        int t = 0, h = 0;
+        var s = new int[] { 0, 1, 3 };
+        for (int i = 0, n = int.Parse(ReadLine()); i < n; i++)
         {
-            var n = int.Parse(ReadLine());
-            var res = new int[3];
-            for (int i = 0; i < n; i++)
-            {
-                var c = ReadLine().Split();
-                if (c[0] == c[1]) res = res.Select(x => x + 1).ToArray();
-                else res[Math.Max((int)(c[1].CompareTo(c[0])), 0)] += 3;
-            }
-            Console.WriteLine($"{res[0]} {res[1]}");
+            var a = ReadLine().Split();
+            t += s[-~a[0].CompareTo(a[1])];
+            h += s[-~a[1].CompareTo(a[0])];
         }
+        WriteLine($"{t} {h}");
     }
 }

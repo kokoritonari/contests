@@ -1,22 +1,17 @@
 using System;
 using System.Linq;
 using static System.Console;
-using static System.Math;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
-        {
-            var n = int.Parse(ReadLine());
-            var x = ReadLine().Split().Select(int.Parse).ToArray();
-            var y = ReadLine().Split().Select(int.Parse).ToArray();
-            foreach (var p in new int[] { 1, 2, 3 })
-            {
-                WriteLine($"{Pow(x.Zip(y, (first, second) => Pow(Abs(first - second), p)).Sum(), 1.0 / p):F6}");
-            }
-            WriteLine($"{x.Zip(y, (first, second) => Abs(first - second)).Max():F6}");
-        }
+        ReadLine();
+        var x = ReadLine().Split().Select(int.Parse);
+        var y = ReadLine().Split().Select(int.Parse);
+        var d = x.Zip(y, (a, b) => Math.Abs(a - b));
+        for (int i = 1; i < 4; i++)
+            WriteLine(Math.Pow(d.Select(z => Math.Pow(z, i)).Sum(), 1.0 / i));
+        WriteLine(d.Max());
     }
 }

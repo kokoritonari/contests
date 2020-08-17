@@ -1,15 +1,11 @@
 using System;
 using System.Linq;
-using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
-        {
-            var c = ReadLine().Split().Select(double.Parse).ToArray();
-            WriteLine($"{Math.Sqrt(Math.Pow(c[3] - c[1], 2) + Math.Pow(c[2] - c[0], 2)):F5}");
-        }
+        var a = Console.ReadLine().Split().Select(double.Parse).ToList();
+        Console.WriteLine(Math.Sqrt(Math.Pow(a[3] - a[1], 2) + Math.Pow(a[2] - a[0], 2)));
     }
 }

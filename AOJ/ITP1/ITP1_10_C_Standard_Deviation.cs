@@ -1,21 +1,14 @@
 using System;
 using System.Linq;
-using static System.Console;
 
-namespace Contest
+class P
 {
-    class Program
+    static void Main()
     {
-        public static void Main(string[] args)
+        while (Console.ReadLine() != "0")
         {
-            while (true)
-            {
-                var n = int.Parse(ReadLine());
-                if (n == 0) break;
-                var s = ReadLine().Split().Select(int.Parse).ToArray();
-                var m = (double) s.Sum() / s.Count();
-                WriteLine($"{Math.Sqrt(s.Select(x => Math.Pow(x - m, 2)).Sum() / s.Count()):F5}");
-            }
+            var a = Console.ReadLine().Split().Select(int.Parse);
+            Console.WriteLine(Math.Sqrt(a.Select(x => Math.Pow(x - a.Average(), 2)).Sum() / a.Count()));
         }
     }
 }

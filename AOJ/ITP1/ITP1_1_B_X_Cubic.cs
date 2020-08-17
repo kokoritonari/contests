@@ -1,10 +1,6 @@
 using System;
-using static System.Console;
 
 class P
 {
-    static void Main()
-    {
-        WriteLine(Math.Pow(int.Parse(ReadLine()), 3));
-    }
+    static void Main() => Console.WriteLine(Math.Pow(int.Parse(Console.ReadLine()), 3));
 }

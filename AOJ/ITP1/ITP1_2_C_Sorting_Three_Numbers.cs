@@ -1,11 +1,7 @@
-using System;
+using c=System.Console;
 using System.Linq;
-using static System.Console;
 
 class P
 {
-    static void Main()
-    {
-        WriteLine(string.Join(" ", ReadLine().Split().Select(int.Parse).OrderBy(x => x)));
-    }
+    static void Main() => c.WriteLine(string.Join(" ", c.ReadLine().Split().Select(int.Parse).OrderBy(x => x)));
 }

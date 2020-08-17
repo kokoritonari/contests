@@ -1,9 +1,4 @@
-using System;
-
 class P
 {
-    static void Main()
-    {
-        Console.WriteLine("Hello World");
-    }
+    static void Main() => System.Console.WriteLine("Hello World");
 }

@@ -1,12 +1,10 @@
 using System;
-using System.Linq;
-using static System.Console;
 
 class P
 {
     static void Main()
     {
-        var a = ReadLine().Split().Select(int.Parse).ToList();
-        WriteLine(a[0] < a[1] && a[1] < a[2] ? "Yes" : "No");
+        var a = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);;
+        Console.WriteLine(a[0] < a[1] && a[1] < a[2] ? "Yes" : "No");
     }
 }

@@ -1,15 +1,12 @@
-using System;
-using static System.Console;
+using c=System.Console;
 
 class P
 {
     static void Main()
     {
-        for (int i = 1;; i++)
-        {
-            var x = ReadLine();
-            if (x == "0") break;
-            WriteLine($"Case {i}: {x}");
-        }
+        int i = 1;
+        var x = "";
+        while ((x = c.ReadLine()) != "0")
+            c.WriteLine($"Case {i++}: {x}");
     }
 }

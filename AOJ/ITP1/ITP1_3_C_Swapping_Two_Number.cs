@@ -1,16 +1,14 @@
 using System;
-using System.Linq;
-using static System.Console;
 
 class P
 {
     static void Main()
     {
-        while (true)
+        while (1 > 0)
         {
-            var a = ReadLine().Split().Select(int.Parse).ToList();
-            if (a[0] == 0 && a[1] == 0) break;
-            WriteLine(string.Join(" ", a.OrderBy(x => x)));
+            var a = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+            if (a[0] + a[1] == 0) break;
+            Console.WriteLine(a[0] < a[1] ? $"{a[0]} {a[1]}" : $"{a[1]} {a[0]}");
         }
     }
 }

@@ -5,8 +5,6 @@ class P
     static void Main()
     {
         int i = 1;
-        var x = "";
-        while ((x = c.ReadLine()) != "0")
-            c.WriteLine($"Case {i++}: {x}");
+        for (var x = ""; (x = c.ReadLine()) != "0"; c.WriteLine($"Case {i++}: {x}"));
     }
 }

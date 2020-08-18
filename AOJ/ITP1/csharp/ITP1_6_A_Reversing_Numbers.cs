@@ -1,13 +1,11 @@
-using System;
+using c=System.Console;
 using System.Linq;
-using static System.Console;
 
 class P
 {
     static void Main()
     {
-        ReadLine();
-        var a = ReadLine().Split().Reverse();
-        WriteLine(string.Join(" ", a));
+        c.ReadLine();
+        c.WriteLine(string.Join(" ", c.ReadLine().Split().Reverse()));
     }
 }

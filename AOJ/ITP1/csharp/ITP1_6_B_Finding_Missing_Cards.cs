@@ -1,24 +1,15 @@
-using System;
-using System.Collections.Generic;
-using static System.Console;
+using System.Linq;
+using c=System.Console;
 
 class P
 {
     static void Main()
     {
-        var a = new List<string>();
+        var a = new string[] { }.ToList();
+        int n = int.Parse(c.ReadLine()), i;
         foreach (var e in "SHCD")
-        {
-            for (int i = 1; i < 14; i++)
-            {
-                a.Add($"{e} {i}");
-            }
-        }
-        var n = int.Parse(ReadLine());
-        for (int i = 0; i < n; i++)
-        {
-            a.Remove(ReadLine());
-        }
-        if (a.Count != 0) WriteLine(string.Join("\n", a));
+            for (i = 1; i < 14; a.Add($"{e} {i++}"));
+        for (i = 0; i++ < n; a.Remove(c.ReadLine()));
+        if (a.Count > 0) c.WriteLine(string.Join("\n", a));
     }
 }

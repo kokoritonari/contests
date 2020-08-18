@@ -1,29 +1,22 @@
 using System;
-using System.Linq;
 using static System.Console;
 
 class P
 {
     static void Main()
     {
-        var d = new int[4, 3, 10];
-        var n = int.Parse(ReadLine());
-        for (int i = 0; i < n; i++)
+        var d = new int[5, 4, 11];
+        int i = int.Parse(ReadLine()), j, k;
+        while (i-- > 0)
         {
-            var a = ReadLine().Split().Select(int.Parse).ToList();
-            d[~-a[0], ~-a[1], ~-a[2]] += a[3];
+            var a = Array.ConvertAll(ReadLine().Split(), int.Parse);
+            d[a[0], a[1], a[2]] += a[3];
         }
-        for (int bi = 0; bi < 4; bi++)
+        for (i = 0; i++ < 4;)
         {
-            if (bi != 0) WriteLine(new string('#' , 20));
-            for (int fi = 0; fi < 3; fi++)
-            {
-                for (int ri = 0; ri < 10; ri++)
-                {
-                    Write($" {string.Join(" ", d[bi, fi, ri])}");
-                }
-                WriteLine();
-            }
+            if (i > 1) WriteLine(new string('#', 20));
+            for (j = 0; j++ < 3; WriteLine())
+                for (k = 0; k++ < 10; Write($" {d[i, j, k]}"));
         }
     }
 }

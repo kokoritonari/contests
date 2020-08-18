@@ -1,13 +1,12 @@
-using System;
+using c=System.Console;
 using System.Linq;
-using static System.Console;
 
 class P
 {
     static void Main()
     {
-        ReadLine();
-        var a = ReadLine().Split().Select(decimal.Parse);
-        WriteLine($"{a.Min()} {a.Max()} {a.Sum()}");
+        c.ReadLine();
+        var a = c.ReadLine().Split().Select(long.Parse);
+        c.WriteLine($"{a.Min()} {a.Max()} {a.Sum()}");
     }
 }

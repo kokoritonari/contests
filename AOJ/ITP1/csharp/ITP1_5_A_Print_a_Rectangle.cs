@@ -1,24 +1,16 @@
 using System;
-using System.Linq;
 using static System.Console;
 
 class P
 {
     static void Main()
     {
-        while (true)
+        while (1 > 0)
         {
-            var a = ReadLine().Split().Select(int.Parse).ToList();
-            int h = a[0], w = a[1];
-            if (h == 0 && w == 0) break;
-            for (int hi = 0; hi < h; hi++)
-            {
-                for (int wi = 0; wi < w; wi++)
-                {
-                    Write("#");
-                }
-                WriteLine();
-            }
+            var a = Array.ConvertAll(ReadLine().Split(), int.Parse);
+            if (a[0] + a[1] == 0) break;
+            for (int i = 0, j; i++ < a[0]; WriteLine())
+                for (j = 0; j++ < a[1]; Write("#"));
             WriteLine();
         }
     }

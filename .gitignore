@@ -1,0 +1,5 @@
+.python-version
+sample_input
+/*/**/test.*
+*.o
+*.exe

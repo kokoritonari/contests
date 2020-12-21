@@ -1,5 +1,14 @@
 .python-version
 sample_input
 /*/**/test.*
+
+### C#
 *.o
 *.exe
+
+### Haskell
+*
+!*/
+!*.*
+*.o
+*.hi

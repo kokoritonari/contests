@@ -7,9 +7,9 @@ int main() {
   for (auto& e : a) {
     cin >> e;
   }
-  int thres = accumulate(a.begin(), a.end(), 0) / 4.0 / m;
+  int s = accumulate(a.begin(), a.end(), 0);
   for (auto e : a) {
-    m -= e >= thres;
+    n -= 4 * e * m < s;
   }
-  cout << (m > 0 ? "No" : "Yes") << endl;
+  cout << (n < m ? "No" : "Yes") << endl;
 }

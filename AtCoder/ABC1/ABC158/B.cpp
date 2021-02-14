@@ -2,6 +2,6 @@
 using namespace std;
 
 int main() {
-  long long n, a, b; cin >> n >> a >> b;
-  cout << n / (a + b) * a + min(int(a), int(n % (a + b))) << endl;
+  long long n, a, b, m; cin >> n >> a >> b;
+  cout << n / (a + b) * a + (a < (m = n % (a + b)) ? a : m) << endl;
 }

@@ -12,3 +12,6 @@ sample_input
 !*.*
 *.o
 *.hi
+
+# FVM Version Cache
+.fvm/

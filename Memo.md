@@ -42,3 +42,9 @@
 * int型の範囲
   * `10 ** 9`までは入る
   * それ以上は`long long`を使わないと入らない
+
+# dart
+* Cascade Notation
+  * 代入の際にvoidを返すメソッドも呼べるようになるすごい書き方
+  * `..`でメソッドにアクセスする
+  * `final a = List.generate(10, (i) => i)..removeWhere((e) => e % 2 != 0);`
